@@ -1,0 +1,28 @@
+name: Check Hero Size
+on:
+    workflow_dispatch:
+    schedule:
+        -   cron: '*/10 * * * *'
+
+jobs:
+    fetch:
+        runs-on: ubuntu-latest
+        outputs:
+            data: ${{ steps.exec-script.outputs.data }}
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v4
+
+            -   name: Run script
+                id: exec-script
+                run: |
+                    node scripts/checkHeroSize.js
+
+    notify:
+        needs: [ fetch ]
+        if: ${{ needs.fetch.outputs.data > 1 }}
+        uses: ./.github/workflows/notify.yml
+        with:
+            msg: ${{ needs.fetch.outputs.data }}
+        secrets:
+            notify_token: ${{ secrets.notify_token }}
