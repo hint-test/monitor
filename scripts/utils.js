@@ -50,6 +50,6 @@ export const getCurrentDateTimeStringPath = () => {
 	const hours = String(now.getHours()).padStart(2, '0');
 	const minutes = String(now.getMinutes()).padStart(2, '0');
 
-	return `${year}/${month}/${day}/${hours}-${minutes}.json`;
+	return `${year}/${month}/${day}/${hours}${minutes}.json`;
 }
 

@@ -27,12 +27,12 @@ const monitorFile = async (filename) => {
 
 	try {
 		const newData = await response.json();
-		const currentFile = `${filename.replace('/', '_')}/current.json`;
+		const currentFile = `${filename.replace(/\//g, '_')}/current.json`;
 		const previousData = readDataFile(currentFile, 'utf8');
 		if (JSON.stringify(previousData) !== JSON.stringify(newData)) {
 			const timestamp = getCurrentDateTimeStringPath();
-			writeDataFile(currentFile, newData);
-			writeDataFile(`${filename.replace('/', '_')}/${timestamp}`, newData);
+			writeDataFile(currentFile, JSON.stringify(newData));
+			writeDataFile(`${filename.replace(/\//g, '_')}/${timestamp}`, JSON.stringify(newData));
 			return newData.length;
 		}
 	} catch (error) {
