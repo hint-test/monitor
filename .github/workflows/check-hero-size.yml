@@ -25,4 +25,5 @@ jobs:
         with:
             msg: ${{ needs.fetch.outputs.data }}
         secrets:
+            notify_server: ${{ secrets.notify_server }}
             notify_token: ${{ secrets.notify_token }}
