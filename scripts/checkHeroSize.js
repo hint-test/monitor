@@ -7,17 +7,20 @@ const main = async () => {
 	const filenameV4 = 'v4/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items';
 	const resultV3 = await monitorFile(filenameV3);
 	const resultV4 = await monitorFile(filenameV4);
+
+	const outputs = [];
 	if (resultV3 !== null || resultV4 !== null) {
 		console.log('new file created');
-		fs.appendFileSync(GITHUB_OUTPUT, `new_file=1`);
+		outputs.push('new_file=1');
 	}
 	if (resultV3 !== null && resultV3.length > 1) {
 		console.log(`resultV3 length=${resultV3.length}`);
-		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV3.length}`);
+		outputs.push(`data=${resultV3.length}`);
 	} else if (resultV4 !== null && resultV4.Items.length > 1) {
 		console.log(`resultV4 length=${resultV4.Items.length}`);
-		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV4.Items.length}`);
+		outputs.push(`data=${resultV4.Items.length}`);
 	}
+	fs.appendFileSync(GITHUB_OUTPUT, outputs.join('&'));
 }
 
 const monitorFile = async (filename) => {
