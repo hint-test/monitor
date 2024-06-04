@@ -8,12 +8,15 @@ const main = async () => {
 	const resultV3 = await monitorFile(filenameV3);
 	const resultV4 = await monitorFile(filenameV4);
 	if (resultV3 !== null || resultV4 !== null) {
+		console.log('new file created');
 		fs.appendFileSync(GITHUB_OUTPUT, `new_file=1`);
 	}
-	if (resultV3 > 1) {
+	if (resultV3 !== null && resultV3.length > 1) {
+		console.log('resultV3 length > 1');
 		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV3.length}`);
-	} else if (resultV4 > 1) {
-		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV4.length}`);
+	} else if (resultV4 !== null && resultV4.Items.length > 1) {
+		console.log('resultV4 length > 1');
+		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV4.Items.length}`);
 	}
 }
 
@@ -33,7 +36,7 @@ const monitorFile = async (filename) => {
 			const timestamp = getCurrentDateTimeStringPath();
 			writeDataFile(currentFile, JSON.stringify(newData));
 			writeDataFile(`${filename.replace(/\//g, '_')}/${timestamp}`, JSON.stringify(newData));
-			return newData.length;
+			return newData;
 		}
 	} catch (error) {
 		console.error('There was a problem with your fetch operation:', error);
