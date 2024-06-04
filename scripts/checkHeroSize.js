@@ -12,10 +12,10 @@ const main = async () => {
 		fs.appendFileSync(GITHUB_OUTPUT, `new_file=1`);
 	}
 	if (resultV3 !== null && resultV3.length > 1) {
-		console.log('resultV3 length > 1');
+		console.log(`resultV3 length=${resultV3.length}`);
 		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV3.length}`);
 	} else if (resultV4 !== null && resultV4.Items.length > 1) {
-		console.log('resultV4 length > 1');
+		console.log(`resultV4 length=${resultV4.Items.length}`);
 		fs.appendFileSync(GITHUB_OUTPUT, `data=${resultV4.Items.length}`);
 	}
 }
