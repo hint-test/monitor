@@ -19,13 +19,13 @@ jobs:
                     node scripts/checkHeroSize.js
 
             -   name: Setup GitHub
-                if: ${{ steps.exec-script.outputs.new_file == 1 }}
+                if: ${{ fromJSON(steps.exec-script.outputs.new_file) == 1 }}
                 run: |
                     git config user.name github-actions
                     git config user.email github-actions@github.com
 
             -   name: Submit data
-                if: ${{ steps.exec-script.outputs.new_file == 1 }}
+                if: ${{ fromJSON(steps.exec-script.outputs.new_file) == 1 }}
                 run: |
                     git add .
                     git commit -m 'add new data'
@@ -33,7 +33,7 @@ jobs:
 
     notify:
         needs: [ fetch ]
-        if: ${{ needs.fetch.outputs.data > 1 }}
+        if: ${{ fromJSON(needs.fetch.outputs.data) > 1 }}
         uses: ./.github/workflows/notify.yml
         with:
             msg: ${{ needs.fetch.outputs.data }}
