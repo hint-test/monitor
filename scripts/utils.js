@@ -21,7 +21,7 @@ export const writeDataFile = (relativeFilePath, data) => {
 		// Write the file
 		fs.writeFileSync(filePath, data, 'utf8');
 
-		console.log('File written successfully');
+		console.log('File created successfully');
 	} catch (error) {
 		console.error('Error writing file', error);
 	}
