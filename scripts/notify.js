@@ -8,7 +8,7 @@ async function main() {
 
 		const data = {
 			payload: JSON.stringify({
-				text
+				text: text.join('\n')
 			}),
 			token: notifyToken
 		};
