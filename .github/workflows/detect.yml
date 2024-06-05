@@ -31,6 +31,15 @@ jobs:
         outputs:
             data: ${{ steps.exec-script.outputs.data }}
 
+    use_output:
+        runs-on: ubuntu-latest
+        needs: [ fetch ]
+        steps:
+            - name: Echo the output
+              run: |
+                  data='${{ needs.fetch.outputs.data }}'
+                  echo "data: $data"
+
     notify:
         needs: [ fetch ]
         if: ${{ fromJson(needs.fetch.outputs.data).length > 1 }}
