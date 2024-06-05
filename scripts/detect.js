@@ -50,7 +50,7 @@ const monitorFile = async (id, url, format = false) => {
 
 const setOutput = (key, value) => {
 	const output = process.env['GITHUB_OUTPUT']
-	fs.appendFileSync(output, `${key}=${value}${os.EOL}`)
+	fs.appendFileSync(output, `${key}=${JSON.stringify(value)}${os.EOL}`)
 }
 
 main();

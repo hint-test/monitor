@@ -7,8 +7,6 @@ on:
 jobs:
     fetch:
         runs-on: ubuntu-latest
-        outputs:
-            data: ${{ steps.exec-script.outputs.data }}
         steps:
             -   name: Checkout
                 uses: actions/checkout@v4
@@ -30,10 +28,12 @@ jobs:
                     git add .
                     git commit -m 'add new data'
 #                    git push
+        outputs:
+            data: ${{ steps.exec-script.outputs.data }}
 
     notify:
         needs: [ fetch ]
-        if: ${{ needs.fetch.outputs.data.length > 1 }}
+        if: ${{ fromJson(needs.fetch.outputs.data).length > 1 }}
         uses: ./.github/workflows/notify.yml
         with:
             msg: ${{ needs.fetch.outputs.data }}
