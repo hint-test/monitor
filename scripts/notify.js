@@ -4,6 +4,7 @@ async function main() {
 	const notifyToken = process.env.notify_token;
 	if (msg && notifyServer && notifyToken) {
 		const text = JSON.parse(msg);
+		console.log(`text: ${text}`);
 
 		const data = {
 			payload: JSON.stringify({
