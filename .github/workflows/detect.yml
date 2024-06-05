@@ -27,7 +27,7 @@ jobs:
                 run: |
                     git add .
                     git commit -m 'add new data'
-#                    git push
+                    git push
         outputs:
             data: ${{ steps.exec-script.outputs.data }}
 
