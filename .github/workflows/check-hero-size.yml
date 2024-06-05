@@ -33,7 +33,7 @@ jobs:
 
     notify:
         needs: [ fetch ]
-        if: ${{ needs.fetch.outputs.data > 1 }}
+        if: ${{ needs.fetch.outputs.data.length > 1 }}
         uses: ./.github/workflows/notify.yml
         with:
             msg: ${{ needs.fetch.outputs.data }}

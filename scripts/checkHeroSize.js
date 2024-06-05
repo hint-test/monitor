@@ -3,22 +3,25 @@ import os from 'os';
 import {getCurrentDateTimeStringPath, readDataFile, writeDataFile} from "./utils.js";
 
 const main = async () => {
-	const filenameV3 = 'v3/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items';
-	const filenameV4 = 'v4/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items';
+	const filenameV3 = 'v3/feeds/335e0ae8-1354-4062-90c5-3ecec351bda4/items';
+	const filenameV4 = 'v4/feeds/335e0ae8-1354-4062-90c5-3ecec351bda4/items';
 	const resultV3 = await monitorFile(filenameV3);
 	const resultV4 = await monitorFile(filenameV4);
 
 	if (resultV3 !== null || resultV4 !== null) {
-		console.log('new file created');
+		console.log('new files found');
 		setOutput('new_file', 1);
 	}
+	const result = [];
 	if (resultV3 !== null && resultV3.length > 1) {
 		console.log(`resultV3 length=${resultV3.length}`);
-		setOutput('data', resultV3.length);
-	} else if (resultV4 !== null && resultV4.Items.length > 1) {
-		console.log(`resultV4 length=${resultV4.Items.length}`);
-		setOutput('data', resultV4.Items.length);
+		result.push(`resultV3 length=${resultV3.length}`);
 	}
+	if (resultV4 !== null && resultV4.Items.length > 1) {
+		console.log(`resultV4 length=${resultV4.Items.length}`);
+		result.push(`resultV4 length=${resultV4.Items.length}`);
+	}
+	setOutput('data', result);
 }
 
 const monitorFile = async (filename) => {

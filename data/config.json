@@ -1,0 +1,12 @@
+[
+	{
+		"id": "v3_feeds_1ad86f5a-c5d4-41de-89c0-2819b56fa01e_items",
+		"url": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com/S1/discovery/v3/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items?$groups=4000000,4000001,1027&storeId=HubsAndFeeds-Main",
+		"notifyCondition": "length > 1"
+	},
+	{
+		"id": "v4_feeds_1ad86f5a-c5d4-41de-89c0-2819b56fa01e_items",
+		"url": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com/S1/discovery/v4/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items?$groups=4000000,4000001,1027&storeId=HubsAndFeeds-Main",
+		"notifyCondition": "Items.length > 1"
+	}
+]
