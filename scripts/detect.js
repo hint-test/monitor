@@ -12,8 +12,9 @@ const main = async () => {
 			hasNewFile = true;
 			const condition = `result.${notifyCondition}`;
 			if (eval(condition)) {
-				console.log(`condition: ${condition} match`);
-				data.push(`condition: ${condition} match`);
+				const msg = `id: ${id} content changed, condition: ${condition} match`;
+				console.log(msg);
+				data.push(msg);
 			}
 		}
 	}
