@@ -10,11 +10,13 @@ const main = async () => {
 		const result = await monitorFile(id, url, format);
 		if (result) {
 			hasNewFile = true;
-			const condition = `result.${notifyCondition}`;
-			if (eval(condition)) {
-				const msg = `id: ${id} content changed, condition: ${condition} match`;
-				console.log(msg);
-				data.push(msg);
+			if (notifyCondition) {
+				const condition = `result.${notifyCondition}`;
+				if (eval(condition)) {
+					const msg = `id: ${id} content changed, condition: ${condition} match`;
+					console.log(msg);
+					data.push(msg);
+				}
 			}
 		}
 	}
