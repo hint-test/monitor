@@ -15,7 +15,8 @@
 	{
 		"id": "uefa_match_2036176_events",
 		"url": "https://match.uefa.com/v5/matches/2036176/events?filter=ALL&offset=0&limit=500&order=ASC",
-		"format": true
+		"format": true,
+		"condition": "length"
 	},
 	{
 		"id": "uefa_match_2036176_livescore",
