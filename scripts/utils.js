@@ -60,12 +60,22 @@ export const getCurrentDateTimeStringPath = () => {
  * @returns true if equals
  */
 export const areJsonEqual = (json1, json2, filterProps = []) => {
-	const isObject = obj => obj && typeof obj === 'object' && !Array.isArray(obj);
+	const isObject = obj => obj && typeof obj === 'object';
+	const isArray = obj => Array.isArray(obj);
 
 	const filterAndCompare = (obj1, obj2, props) => {
 		if (obj1 === obj2) return true;
 
 		if (!isObject(obj1) || !isObject(obj2)) return false;
+		if (isArray(obj1) !== isArray(obj2)) return false;
+
+		if (isArray(obj1)) {
+			if (obj1.length !== obj2.length) return false;
+			for (let i = 0; i < obj1.length; i++) {
+				if (!filterAndCompare(obj1[i], obj2[i], props)) return false;
+			}
+			return true;
+		}
 
 		const keys1 = Object.keys(obj1).filter(key => !props.includes(key));
 		const keys2 = Object.keys(obj2).filter(key => !props.includes(key));
