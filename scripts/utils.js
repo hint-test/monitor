@@ -77,8 +77,8 @@ export const areJsonEqual = (json1, json2, filterProps = []) => {
 			return true;
 		}
 
-		const keys1 = Object.keys(obj1).filter(key => !props.includes(key));
-		const keys2 = Object.keys(obj2).filter(key => !props.includes(key));
+		const keys1 = Object.keys(obj1).filter(key => !props?.includes(key));
+		const keys2 = Object.keys(obj2).filter(key => !props?.includes(key));
 
 		if (keys1.length !== keys2.length) return false;
 
