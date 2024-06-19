@@ -6,17 +6,14 @@ const main = async () => {
 	const configs = readDataFile('config.json');
 	let hasNewFile = false;
 	const data = [];
-	for (const {id, url, notifyCondition, format, filters} of configs) {
+	for (const {id, url, notify, format, filters} of configs) {
 		const result = await monitorFile(id, url, format, filters);
 		if (result) {
 			hasNewFile = true;
-			if (notifyCondition) {
-				const condition = `result.${notifyCondition}`;
-				if (eval(condition)) {
-					const msg = `id: ${id} content changed, condition: ${condition} match`;
-					console.log(msg);
-					data.push(msg);
-				}
+			if (notify && (typeof notify === 'boolean' || eval(`result.${notify}`))) {
+				const msg = `id: ${id} content changed, condition: ${notify} match`;
+				console.log(msg);
+				data.push(msg);
 			}
 		}
 	}

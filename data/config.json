@@ -10,17 +10,20 @@
 		"format": true,
 		"filters": [
 			"referees"
-		]
+		],
+		"notify": true
 	},
 	{
 		"id": "uefa_match_2036176_events",
 		"url": "https://match.uefa.com/v5/matches/2036176/events?filter=ALL&offset=0&limit=100&order=DESC",
-		"format": true
+		"format": true,
+		"notify": true
 	},
 	{
 		"id": "uefa_match_2036176_livescore",
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036176",
-		"format": true
+		"format": true,
+		"notify": true
 	}
 ]
 
