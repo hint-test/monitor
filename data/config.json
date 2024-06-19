@@ -3,5 +3,29 @@
 		"id": "v4_feeds_335e0ae8-1354-4062-90c5-3ecec351bda4_items",
 		"url": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com/S1/discovery/v4/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items?$groups=4000000,4000001,1027&storeId=HubsAndFeeds-Main",
 		"format": true
+	},
+	{
+		"id": "uefa_match_2036176",
+		"url": "https://match.uefa.com/v5/matches?matchId=2036176",
+		"format": true
+	},
+	{
+		"id": "uefa_match_2036176_events",
+		"url": "https://match.uefa.com/v5/matches/2036165/events?filter=ALL&offset=0&limit=100&order",
+		"format": true
+	},
+	{
+		"id": "uefa_match_2036176_livescore",
+		"url": "https://match.uefa.com/v5/livescore?matchId=2036176",
+		"format": true
+	},
+	{
+		"id": "uefa_match_2036176_api",
+		"url": "https://api.pre.digital.uefa.com/match/v5/matches?matchId=2036176",
+		"format": true,
+		"headers": {
+			"Ocp-Apim-Subscription-Key": "1c801cd5bfa84d24a06bb9676348178c"
+		}
 	}
 ]
+

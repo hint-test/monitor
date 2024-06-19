@@ -6,8 +6,8 @@ const main = async () => {
 	const configs = readDataFile('config.json');
 	let hasNewFile = false;
 	const data = [];
-	for (const {id, url, notifyCondition, format} of configs) {
-		const result = await monitorFile(id, url, format);
+	for (const {id, url, notifyCondition, format, headers} of configs) {
+		const result = await monitorFile(id, url, format, headers);
 		if (result) {
 			hasNewFile = true;
 			if (notifyCondition) {
@@ -27,8 +27,11 @@ const main = async () => {
 	setOutput('data', data);
 }
 
-const monitorFile = async (id, url, format = false) => {
-	const response = await fetch(url);
+const monitorFile = async (id, url, format = false, headers = null) => {
+	const options = headers ? {
+		headers: headers
+	} : null;
+	const response = await fetch(url, options);
 	if (!response.ok) {
 		throw new Error('Network response was not ok');
 	}
