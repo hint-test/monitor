@@ -7,7 +7,10 @@
 	{
 		"id": "uefa_match_2036176",
 		"url": "https://match.uefa.com/v5/matches?matchId=2036176",
-		"format": true
+		"format": true,
+		"filters": [
+			"referees"
+		]
 	},
 	{
 		"id": "uefa_match_2036176_events",

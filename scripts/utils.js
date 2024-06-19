@@ -53,3 +53,24 @@ export const getCurrentDateTimeStringPath = () => {
 	return `${year}/${month}/${day}/${hours}${minutes}.json`;
 }
 
+/**
+ *
+ * @param json1
+ * @param json2
+ * @returns true if equals
+ */
+export const areJsonEqual = (json1, json2, filterProps = []) => {
+	const filter = (obj, props) => {
+		return Object.keys(obj)
+			.filter(key => !props.includes(key))
+			.reduce((acc, key) => {
+				acc[key] = obj[key];
+				return acc;
+			}, {});
+	};
+
+	const filteredJson1 = filter(json1, filterProps);
+	const filteredJson2 = filter(json2, filterProps);
+
+	return JSON.stringify(filteredJson1) === JSON.stringify(filteredJson2);
+};
