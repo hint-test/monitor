@@ -44,7 +44,7 @@ export const readDataFile = (relativeFilePath) => {
 export const getCurrentDateTimeStringPath = () => {
 	const now = new Date();
 
-	const year = now.getFullYear().toString().slice(-2); // Get last 2 digits of the year
+	const year = now.getFullYear().toString();
 	const month = String(now.getMonth() + 1).padStart(2, '0'); // Month is zero-based, so add 1
 	const day = String(now.getDate()).padStart(2, '0');
 	const hours = String(now.getHours()).padStart(2, '0');
