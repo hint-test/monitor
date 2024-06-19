@@ -1,8 +1,9 @@
 name: Detect
 on:
     workflow_dispatch:
-    schedule:
-        -   cron: '*/10 * * * *'
+    repository_dispatch:
+        types:
+            - detect
     push:
         paths:
             - 'data/config.json'
