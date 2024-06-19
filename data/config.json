@@ -18,14 +18,6 @@
 		"id": "uefa_match_2036176_livescore",
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036176",
 		"format": true
-	},
-	{
-		"id": "uefa_match_2036176_api",
-		"url": "https://api.pre.digital.uefa.com/match/v5/matches?matchId=2036176",
-		"format": true,
-		"headers": {
-			"Ocp-Apim-Subscription-Key": "1c801cd5bfa84d24a06bb9676348178c"
-		}
-	}
+`	}
 ]
 
