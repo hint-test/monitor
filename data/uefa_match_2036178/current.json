@@ -1,0 +1,1462 @@
+[
+	{
+		"awayTeam": {
+			"associationId": "200039",
+			"associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/ENG.svg",
+			"bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/ENG.png",
+			"confederationType": "UEFA",
+			"countryCode": "ENG",
+			"id": "39",
+			"idProvider": "FAME",
+			"internationalName": "England",
+			"isPlaceHolder": false,
+			"logoUrl": "https://img.uefa.com/imgml/flags/70x70/ENG.png",
+			"mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/ENG.png",
+			"organizationId": "200039",
+			"teamCode": "ENG",
+			"teamTypeDetail": "NATIONAL_MEN_TEAM_A",
+			"translations": {
+				"countryName": {
+					"EN": "England",
+					"FR": "Angleterre",
+					"DE": "England",
+					"ES": "Inglaterra",
+					"PT": "Inglaterra",
+					"IT": "Inghilterra",
+					"RU": "Англия",
+					"ZH": "英格兰",
+					"TR": "England",
+					"HU": "England",
+					"CS": "England",
+					"NL": "England"
+				},
+				"displayName": {
+					"EN": "England",
+					"FR": "Angleterre",
+					"DE": "England",
+					"ES": "Inglaterra",
+					"PT": "Inglaterra",
+					"IT": "Inghilterra",
+					"RU": "Англия",
+					"ZH": "英格兰",
+					"TR": "England",
+					"HU": "England",
+					"CS": "England",
+					"NL": "England"
+				},
+				"displayOfficialName": {
+					"EN": "England",
+					"FR": "Angleterre",
+					"DE": "England",
+					"ES": "Inglaterra",
+					"PT": "Inglaterra",
+					"IT": "Inghilterra",
+					"RU": "Англия",
+					"ZH": "英格兰",
+					"TR": "England",
+					"HU": "England",
+					"CS": "England",
+					"NL": "England"
+				},
+				"displayTeamCode": {
+					"EN": "ENG",
+					"FR": "ENG",
+					"DE": "ENG",
+					"ES": "ENG",
+					"PT": "ENG",
+					"IT": "ENG",
+					"RU": "ENG",
+					"ZH": "ENG",
+					"TR": "ENG",
+					"HU": "ENG",
+					"CS": "ENG",
+					"NL": "ENG"
+				}
+			},
+			"typeIsNational": true,
+			"typeTeam": "NATIONAL"
+		},
+		"behindClosedDoors": false,
+		"competition": {
+			"age": "ADULT",
+			"code": "EURO",
+			"id": "3",
+			"images": {
+				"FULL_LOGO": "https://img.uefa.com/imgml/uefacom/elements/logos/competitions/color/full/3.svg"
+			},
+			"metaData": {
+				"name": "European Championship"
+			},
+			"region": "CONTINENTAL",
+			"sex": "MALE",
+			"sportsType": "FOOTBALL",
+			"teamCategory": "NATIONAL",
+			"translations": {
+				"name": {
+					"EN": "UEFA EURO",
+					"FR": "UEFA EURO",
+					"DE": "UEFA EURO",
+					"ES": "UEFA EURO",
+					"PT": "UEFA EURO",
+					"IT": "UEFA EURO",
+					"RU": "ЕВРО",
+					"ZH": "UEFA EURO",
+					"TR": "UEFA EURO",
+					"HU": "UEFA EURO",
+					"CS": "UEFA EURO",
+					"NL": "UEFA EURO"
+				},
+				"prequalifyingName": {
+					"EN": "UEFA EURO",
+					"FR": "UEFA EURO",
+					"DE": "UEFA EURO",
+					"ES": "UEFA EURO",
+					"PT": "UEFA EURO",
+					"IT": "UEFA EURO",
+					"RU": "ЕВРО",
+					"ZH": "UEFA EURO",
+					"TR": "UEFA EURO",
+					"HU": "UEFA EURO",
+					"CS": "UEFA EURO",
+					"NL": "UEFA EURO"
+				},
+				"qualifyingName": {
+					"EN": "European Qualifiers",
+					"FR": "Éliminatoires européens",
+					"DE": "European Qualifiers",
+					"ES": "Clasificatorios Europeos",
+					"PT": "Qualificação Europeia",
+					"IT": "Qualificazioni Europee",
+					"RU": "Европейская квалификация",
+					"ZH": "EURO Qualifiers",
+					"TR": "European Qualifiers",
+					"HU": "European Qualifiers",
+					"CS": "European Qualifiers",
+					"NL": "European Qualifiers"
+				},
+				"tournamentName": {
+					"EN": "UEFA EURO",
+					"FR": "UEFA EURO",
+					"DE": "UEFA EURO",
+					"ES": "UEFA EURO",
+					"PT": "UEFA EURO",
+					"IT": "UEFA EURO",
+					"RU": "ЕВРО",
+					"ZH": "UEFA EURO",
+					"TR": "UEFA EURO",
+					"HU": "UEFA EURO",
+					"CS": "UEFA EURO",
+					"NL": "UEFA EURO"
+				}
+			},
+			"type": "CUP"
+		},
+		"group": {
+			"competitionId": "3",
+			"id": "2006646",
+			"metaData": {
+				"groupName": "Group C",
+				"groupShortName": "GrpC"
+			},
+			"order": 3,
+			"phase": "TOURNAMENT",
+			"roundId": "2001079",
+			"seasonYear": "2024",
+			"teams": [
+				"35",
+				"147",
+				"39",
+				"57163"
+			],
+			"teamsQualifiedNumber": 2,
+			"translations": {
+				"name": {
+					"EN": "Group C",
+					"FR": "Groupe C",
+					"DE": "Gruppe C",
+					"ES": "Grupo C",
+					"PT": "Grupo C",
+					"IT": "Gruppo C",
+					"RU": "Группа C",
+					"ZH": "C组",
+					"TR": "Group C",
+					"HU": "C Csoport",
+					"CS": "Group C",
+					"NL": "Groep C"
+				},
+				"shortName": {
+					"EN": "C",
+					"FR": "C",
+					"DE": "C",
+					"ES": "C",
+					"PT": "C",
+					"IT": "C",
+					"RU": "C",
+					"ZH": "C",
+					"TR": "C",
+					"HU": "C",
+					"CS": "C",
+					"NL": "C"
+				}
+			},
+			"type": "STANDARD"
+		},
+		"homeTeam": {
+			"associationId": "200035",
+			"associationLogoUrl": "https://img.uefa.com/imgml/uefacom/elements/logos/ma/DEN.svg",
+			"bigLogoUrl": "https://img.uefa.com/imgml/flags/700x700/DEN.png",
+			"confederationType": "UEFA",
+			"countryCode": "DEN",
+			"id": "35",
+			"idProvider": "FAME",
+			"internationalName": "Denmark",
+			"isPlaceHolder": false,
+			"logoUrl": "https://img.uefa.com/imgml/flags/70x70/DEN.png",
+			"mediumLogoUrl": "https://img.uefa.com/imgml/flags/240x240/DEN.png",
+			"organizationId": "200035",
+			"teamCode": "DEN",
+			"teamTypeDetail": "NATIONAL_MEN_TEAM_A",
+			"translations": {
+				"countryName": {
+					"EN": "Denmark",
+					"FR": "Danemark",
+					"DE": "Dänemark",
+					"ES": "Dinamarca",
+					"PT": "Dinamarca",
+					"IT": "Danimarca",
+					"RU": "Дания",
+					"ZH": "丹麦",
+					"TR": "Denmark",
+					"HU": "Denmark",
+					"CS": "Denmark",
+					"NL": "Denmark"
+				},
+				"displayName": {
+					"EN": "Denmark",
+					"FR": "Danemark",
+					"DE": "Dänemark",
+					"ES": "Dinamarca",
+					"PT": "Dinamarca",
+					"IT": "Danimarca",
+					"RU": "Дания",
+					"ZH": "丹麦",
+					"TR": "Denmark",
+					"HU": "Denmark",
+					"CS": "Denmark",
+					"NL": "Denmark"
+				},
+				"displayOfficialName": {
+					"EN": "Denmark",
+					"FR": "Danemark",
+					"DE": "Dänemark",
+					"ES": "Dinamarca",
+					"PT": "Dinamarca",
+					"IT": "Danimarca",
+					"RU": "Дания",
+					"ZH": "丹麦",
+					"TR": "Denmark",
+					"HU": "Denmark",
+					"CS": "Denmark",
+					"NL": "Denmark"
+				},
+				"displayTeamCode": {
+					"EN": "DEN",
+					"FR": "DEN",
+					"DE": "DEN",
+					"ES": "DEN",
+					"PT": "DEN",
+					"IT": "DEN",
+					"RU": "DEN",
+					"ZH": "DEN",
+					"TR": "DEN",
+					"HU": "DEN",
+					"CS": "DEN",
+					"NL": "DEN"
+				}
+			},
+			"typeIsNational": true,
+			"typeTeam": "NATIONAL"
+		},
+		"id": "2036178",
+		"kickOffTime": {
+			"date": "2024-06-20",
+			"dateTime": "2024-06-20T16:00:00Z",
+			"utcOffsetInHours": 2
+		},
+		"lineupStatus": "NOT_AVAILABLE",
+		"matchNumber": 17,
+		"matchday": {
+			"competitionId": "3",
+			"dateFrom": "2024-06-18T22:00:00+0000",
+			"dateTo": "2024-06-22T21:59:59+0000",
+			"format": "REGULAR",
+			"id": "33780",
+			"longName": "Matchday 2",
+			"name": "MD2",
+			"roundId": "2001079",
+			"seasonYear": "2024",
+			"sequenceNumber": "2",
+			"translations": {
+				"longName": {
+					"EN": "Matchday 2",
+					"FR": "Journée 2",
+					"DE": "Spieltag 2",
+					"ES": "Jornada 2",
+					"PT": "Jornada 2",
+					"IT": "Giornata 2",
+					"RU": "Тур 2",
+					"ZH": "比赛日 2",
+					"TR": "Matchday 2",
+					"HU": "Matchday 2",
+					"CS": "Matchday 2",
+					"NL": "Matchday 2"
+				},
+				"name": {
+					"EN": "MD 2",
+					"FR": "J 2",
+					"DE": "ST 2",
+					"ES": "JOR 2",
+					"PT": "J 2",
+					"IT": "G 2",
+					"RU": "Тур 2",
+					"ZH": "比赛日 2",
+					"TR": "MD 2",
+					"HU": "MD 2",
+					"CS": "MD 2",
+					"NL": "MD 2"
+				}
+			},
+			"type": "MATCHDAY"
+		},
+		"referees": [
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250062202.jpg"
+				},
+				"person": {
+					"countryCode": "ESP",
+					"gender": "MALE",
+					"id": "250062202",
+					"translations": {
+						"countryName": {
+							"EN": "Spain",
+							"FR": "Espagne",
+							"DE": "Spanien",
+							"ES": "España",
+							"PT": "Espanha",
+							"IT": "Spagna",
+							"RU": "Испания",
+							"ZH": "西班牙",
+							"TR": "Spain",
+							"HU": "Spain",
+							"CS": "Spain",
+							"NL": "Spain"
+						},
+						"firstName": {
+							"EN": "Juan",
+							"FR": "Juan",
+							"DE": "Juan",
+							"ES": "Juan",
+							"PT": "Juan",
+							"IT": "Juan",
+							"RU": "Juan",
+							"ZH": "Juan",
+							"TR": "Juan",
+							"HU": "Juan",
+							"CS": "Juan",
+							"NL": "Juan"
+						},
+						"lastName": {
+							"EN": "Martínez Munuera",
+							"FR": "Martínez Munuera",
+							"DE": "Martínez Munuera",
+							"ES": "Martínez Munuera",
+							"PT": "Martínez Munuera",
+							"IT": "Martínez Munuera",
+							"RU": "Martinez Munuera",
+							"ZH": "Martinez Munuera",
+							"TR": "Martínez Munuera",
+							"HU": "Martínez Munuera",
+							"CS": "Martínez Munuera",
+							"NL": "Martínez Munuera"
+						},
+						"name": {
+							"EN": "Juan Martínez Munuera",
+							"FR": "Juan Martínez Munuera",
+							"DE": "Juan Martínez Munuera",
+							"ES": "Juan Martínez Munuera",
+							"PT": "Juan Martínez Munuera",
+							"IT": "Juan Martínez Munuera",
+							"RU": "Хуан Мартинес",
+							"ZH": "胡安·马丁内兹·穆努埃拉",
+							"TR": "Juan Martínez Munuera",
+							"HU": "Juan Martínez Munuera",
+							"CS": "Juan Martínez Munuera",
+							"NL": "Juan Martínez Munuera"
+						},
+						"shortName": {
+							"EN": "Martínez Munuera",
+							"FR": "Martínez Munuera",
+							"DE": "Martínez Munuera",
+							"ES": "Martínez Munuera",
+							"PT": "Martínez Munuera",
+							"IT": "Martínez Munuera",
+							"RU": "Мартинес",
+							"ZH": "马丁内兹·穆努埃拉",
+							"TR": "Martínez Munuera",
+							"HU": "Martínez Munuera",
+							"CS": "Martínez Munuera",
+							"NL": "Martínez Munuera"
+						}
+					}
+				},
+				"role": "ASSISTANT_VIDEO_ASSISTANT_REFEREE_TWO",
+				"translations": {
+					"roleName": {
+						"EN": "Assistant Video Assistant Referee 2",
+						"FR": "Assistant de l'Arbitre Assistant Vidéo 2",
+						"DE": "Zweiter Assistent des Videoassistenten",
+						"ES": "Asistente 2 del Árbitro Asistente de Vídeo",
+						"PT": "Assistente de Vídeo Árbitro Assistente 2",
+						"IT": "Assistente 2 Video Assistant Referee",
+						"RU": "Ассистент видеопомощника рефери 2",
+						"ZH": "Assistente de Vídeo Árbitro Assistente 2",
+						"TR": "Assistant Video Assistant Referee 2",
+						"HU": "Assistant Video Assistant Referee 2",
+						"CS": "Assistant Video Assistant Referee 2",
+						"NL": "Assistant Video Assistant Referee 2"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250006840.jpg"
+				},
+				"person": {
+					"countryCode": "AZE",
+					"gender": "FEMALE",
+					"id": "250006840",
+					"translations": {
+						"countryName": {
+							"EN": "Azerbaijan",
+							"FR": "Azerbaïdjan",
+							"DE": "Aserbaidschan",
+							"ES": "Azerbaiyán",
+							"PT": "Azerbaijão",
+							"IT": "Azerbaigian",
+							"RU": "Азербайджан",
+							"ZH": "阿赛拜疆",
+							"TR": "Azerbaijan",
+							"HU": "Azerbaijan",
+							"CS": "Azerbaijan",
+							"NL": "Azerbaijan"
+						},
+						"firstName": {
+							"EN": "Konul",
+							"FR": "Konul",
+							"DE": "Konul",
+							"ES": "Konul",
+							"PT": "Konul",
+							"IT": "Konul",
+							"RU": "Konul",
+							"ZH": "Konul",
+							"TR": "Konul",
+							"HU": "Konul",
+							"CS": "Konul",
+							"NL": "Konul"
+						},
+						"lastName": {
+							"EN": "Mehtiyeva",
+							"FR": "Mehtiyeva",
+							"DE": "Mehtiyeva",
+							"ES": "Mehtiyeva",
+							"PT": "Mehtiyeva",
+							"IT": "Mehtiyeva",
+							"RU": "Mehtiyeva",
+							"ZH": "Mehtiyeva",
+							"TR": "Mehtiyeva",
+							"HU": "Mehtiyeva",
+							"CS": "Mehtiyeva",
+							"NL": "Mehtiyeva"
+						},
+						"name": {
+							"EN": "Konul Mehtiyeva",
+							"FR": "Konul Mehtiyeva",
+							"DE": "Konul Mehtiyeva",
+							"ES": "Konul Mehtiyeva",
+							"PT": "Konul Mehtiyeva",
+							"IT": "Konul Mehtiyeva",
+							"RU": "Кенуль Мехтиева",
+							"ZH": "Konul Mehtiyeva",
+							"TR": "Konul Mehtiyeva",
+							"HU": "Konul Mehtiyeva",
+							"CS": "Konul Mehtiyeva",
+							"NL": "Konul Mehtiyeva"
+						},
+						"shortName": {
+							"EN": "Mehtiyeva",
+							"FR": "Mehtiyeva",
+							"DE": "Mehtiyeva",
+							"ES": "Mehtiyeva",
+							"PT": "Mehtiyeva",
+							"IT": "Mehtiyeva",
+							"RU": "Мехтиева",
+							"ZH": "Mehtiyeva",
+							"TR": "Mehtiyeva",
+							"HU": "Mehtiyeva",
+							"CS": "Mehtiyeva",
+							"NL": "Mehtiyeva"
+						}
+					}
+				},
+				"role": "UEFA_DELEGATE",
+				"translations": {
+					"roleName": {
+						"EN": "UEFA Delegate",
+						"FR": "Délégué ou déléguée UEFA",
+						"DE": "UEFA-Delegierte",
+						"ES": "Delegada UEFA",
+						"PT": "Delegada da UEFA",
+						"IT": "Delegata UEFA",
+						"RU": "Делегат УЕФА",
+						"ZH": "UEFA delegate",
+						"TR": "UEFA Delegate",
+						"HU": "UEFA Delegate",
+						"CS": "UEFA Delegate",
+						"NL": "UEFA Delegate"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/291556.jpg"
+				},
+				"person": {
+					"countryCode": "POR",
+					"gender": "MALE",
+					"id": "291556",
+					"translations": {
+						"countryName": {
+							"EN": "Portugal",
+							"FR": "Portugal",
+							"DE": "Portugal",
+							"ES": "Portugal",
+							"PT": "Portugal",
+							"IT": "Portogallo",
+							"RU": "Португалия",
+							"ZH": "葡萄牙",
+							"TR": "Portugal",
+							"HU": "Portugal",
+							"CS": "Portugal",
+							"NL": "Portugal"
+						},
+						"firstName": {
+							"EN": "Artur",
+							"FR": "Artur",
+							"DE": "Artur",
+							"ES": "Artur",
+							"PT": "Artur",
+							"IT": "Artur",
+							"RU": "Artur Manuel",
+							"ZH": "Artur Manuel",
+							"TR": "Artur Manuel",
+							"HU": "Artur Manuel",
+							"CS": "Artur Manuel",
+							"NL": "Artur Manuel"
+						},
+						"lastName": {
+							"EN": "Soares Dias",
+							"FR": "Soares Dias",
+							"DE": "Soares Dias",
+							"ES": "Soares Dias",
+							"PT": "Soares Dias",
+							"IT": "Soares Dias",
+							"RU": "Ribeiro Soares Dias",
+							"ZH": "Ribeiro Soares Dias",
+							"TR": "Ribeiro Soares Dias",
+							"HU": "Ribeiro Soares Dias",
+							"CS": "Ribeiro Soares Dias",
+							"NL": "Ribeiro Soares Dias"
+						},
+						"name": {
+							"EN": "Artur Soares Dias",
+							"FR": "Artur Soares Dias",
+							"DE": "Artur Soares Dias",
+							"ES": "Artur Soares Dias",
+							"PT": "Artur Soares Dias",
+							"IT": "Artur Soares Dias",
+							"RU": "Артур Диаш",
+							"ZH": "阿图尔·迪亚斯",
+							"TR": "Artur Dias",
+							"HU": "Artur Dias",
+							"CS": "Artur Dias",
+							"NL": "Artur Dias"
+						},
+						"shortName": {
+							"EN": "Soares Dias",
+							"FR": "Soares Dias",
+							"DE": "Soares Dias",
+							"ES": "Soares Dias",
+							"PT": "Soares Dias",
+							"IT": "Soares Dias",
+							"RU": "Артур Диаш",
+							"ZH": "阿图尔·迪亚斯",
+							"TR": "Artur Dias",
+							"HU": "Artur Dias",
+							"CS": "Artur Dias",
+							"NL": "Artur Dias"
+						}
+					}
+				},
+				"role": "REFEREE",
+				"translations": {
+					"roleName": {
+						"EN": "Referee",
+						"FR": "Arbitre",
+						"DE": "Schiedsrichter",
+						"ES": "Árbitro",
+						"PT": "Árbitro",
+						"IT": "Arbitro",
+						"RU": "Рефери",
+						"ZH": "Árbitro",
+						"TR": "Referee",
+						"HU": "Referee",
+						"CS": "Referee",
+						"NL": "Referee"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/281935.jpg"
+				},
+				"person": {
+					"countryCode": "ITA",
+					"gender": "MALE",
+					"id": "281935",
+					"translations": {
+						"countryName": {
+							"EN": "Italy",
+							"FR": "Italie",
+							"DE": "Italien",
+							"ES": "Italia",
+							"PT": "Itália",
+							"IT": "Italia",
+							"RU": "Италия",
+							"ZH": "意大利",
+							"TR": "Italy",
+							"HU": "Italy",
+							"CS": "Italy",
+							"NL": "Italy"
+						},
+						"firstName": {
+							"EN": "Nicola",
+							"FR": "Nicola",
+							"DE": "Nicola",
+							"ES": "Nicola",
+							"PT": "Nicola",
+							"IT": "Nicola",
+							"RU": "Nicola",
+							"ZH": "Nicola",
+							"TR": "Nicola",
+							"HU": "Nicola",
+							"CS": "Nicola",
+							"NL": "Nicola"
+						},
+						"lastName": {
+							"EN": "Rizzoli",
+							"FR": "Rizzoli",
+							"DE": "Rizzoli",
+							"ES": "Rizzoli",
+							"PT": "Rizzoli",
+							"IT": "Rizzoli",
+							"RU": "Rizzoli",
+							"ZH": "Rizzoli",
+							"TR": "Rizzoli",
+							"HU": "Rizzoli",
+							"CS": "Rizzoli",
+							"NL": "Rizzoli"
+						},
+						"name": {
+							"EN": "Nicola Rizzoli",
+							"FR": "Nicola Rizzoli",
+							"DE": "Nicola Rizzoli",
+							"ES": "Nicola Rizzoli",
+							"PT": "Nicola Rizzoli",
+							"IT": "Nicola Rizzoli",
+							"RU": "Никола Риццоли",
+							"ZH": "尼克拉·里佐利",
+							"TR": "Nicola Rizzoli",
+							"HU": "Nicola Rizzoli",
+							"CS": "Nicola Rizzoli",
+							"NL": "Nicola Rizzoli"
+						},
+						"shortName": {
+							"EN": "Rizzoli",
+							"FR": "Rizzoli",
+							"DE": "Rizzoli",
+							"ES": "Rizzoli",
+							"PT": "Rizzoli",
+							"IT": "Rizzoli",
+							"RU": "Риццоли",
+							"ZH": "里佐利",
+							"TR": "Rizzoli",
+							"HU": "Rizzoli",
+							"CS": "Rizzoli",
+							"NL": "Rizzoli"
+						}
+					}
+				},
+				"role": "REFEREE_OBSERVER",
+				"translations": {
+					"roleName": {
+						"EN": "Referee observer",
+						"FR": "Observateur d'arbitres",
+						"DE": "Referee observer",
+						"ES": "Observador arbitral",
+						"PT": "Observador de árbitro",
+						"IT": "Referee observer",
+						"RU": "Судейский наблюдатель",
+						"ZH": "Referee observer",
+						"TR": "Referee observer",
+						"HU": "Referee observer",
+						"CS": "Referee observer",
+						"NL": "Referee observer"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250089127.jpg"
+				},
+				"person": {
+					"countryCode": "POR",
+					"gender": "MALE",
+					"id": "250089127",
+					"translations": {
+						"countryName": {
+							"EN": "Portugal",
+							"FR": "Portugal",
+							"DE": "Portugal",
+							"ES": "Portugal",
+							"PT": "Portugal",
+							"IT": "Portogallo",
+							"RU": "Португалия",
+							"ZH": "葡萄牙",
+							"TR": "Portugal",
+							"HU": "Portugal",
+							"CS": "Portugal",
+							"NL": "Portugal"
+						},
+						"firstName": {
+							"EN": "Pedro",
+							"FR": "Pedro",
+							"DE": "Pedro",
+							"ES": "Pedro",
+							"PT": "Pedro",
+							"IT": "Pedro",
+							"RU": "Pedro Ricardo",
+							"ZH": "Pedro Ricardo",
+							"TR": "Pedro Ricardo",
+							"HU": "Pedro Ricardo",
+							"CS": "Pedro Ricardo",
+							"NL": "Pedro Ricardo"
+						},
+						"lastName": {
+							"EN": "Ribeiro",
+							"FR": "Ribeiro",
+							"DE": "Ribeiro",
+							"ES": "Ribeiro",
+							"PT": "Ribeiro",
+							"IT": "Ribeiro",
+							"RU": "Ferreira Ribeiro",
+							"ZH": "Ferreira Ribeiro",
+							"TR": "Ferreira Ribeiro",
+							"HU": "Ferreira Ribeiro",
+							"CS": "Ferreira Ribeiro",
+							"NL": "Ferreira Ribeiro"
+						},
+						"name": {
+							"EN": "Pedro Ribeiro",
+							"FR": "Pedro Ribeiro",
+							"DE": "Pedro Ribeiro",
+							"ES": "Pedro Ribeiro",
+							"PT": "Pedro Ribeiro",
+							"IT": "Pedro Ribeiro",
+							"RU": "Педру Рибейру",
+							"ZH": "Pedro Ricardo Ferreira Ribeiro",
+							"TR": "Pedro Ribeiro",
+							"HU": "Pedro Ribeiro",
+							"CS": "Pedro Ribeiro",
+							"NL": "Pedro Ribeiro"
+						},
+						"shortName": {
+							"EN": "Pedro Ribeiro",
+							"FR": "Pedro Ribeiro",
+							"DE": "Pedro Ribeiro",
+							"ES": "Pedro Ribeiro",
+							"PT": "Pedro Ribeiro",
+							"IT": "Pedro Ribeiro",
+							"RU": "Педру Рибейру",
+							"ZH": "Ferreira Ribeiro",
+							"TR": "Pedro Ribeiro",
+							"HU": "Pedro Ribeiro",
+							"CS": "Pedro Ribeiro",
+							"NL": "Pedro Ribeiro"
+						}
+					}
+				},
+				"role": "ASSISTANT_REFEREE_TWO",
+				"translations": {
+					"roleName": {
+						"EN": "Assistant referee two",
+						"FR": "Arbitre assistant n°2",
+						"DE": "Schiedsrichterassistent zwei",
+						"ES": "Segundo árbitro asistente",
+						"PT": "Árbitro assistente 2",
+						"IT": "Guardalinee due",
+						"RU": "Ассистент рефери 2",
+						"ZH": "Árbitro-assistente 2",
+						"TR": "Assistant referee two",
+						"HU": "Assistant referee two",
+						"CS": "Assistant referee two",
+						"NL": "Assistant referee two"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250094328.jpg"
+				},
+				"person": {
+					"countryCode": "UKR",
+					"gender": "MALE",
+					"id": "250094328",
+					"translations": {
+						"countryName": {
+							"EN": "Ukraine",
+							"FR": "Ukraine",
+							"DE": "Ukraine",
+							"ES": "Ucrania",
+							"PT": "Ucrânia",
+							"IT": "Ucraina",
+							"RU": "Украина",
+							"ZH": "乌克兰",
+							"TR": "Ukraine",
+							"HU": "Ukraine",
+							"CS": "Ukraine",
+							"NL": "Ukraine"
+						},
+						"firstName": {
+							"EN": "Mykola",
+							"FR": "Mykola",
+							"DE": "Mykola",
+							"ES": "Mykola",
+							"PT": "Mykola",
+							"IT": "Mykola",
+							"RU": "Mykola",
+							"ZH": "Mykola",
+							"TR": "Mykola",
+							"HU": "Mykola",
+							"CS": "Mykola",
+							"NL": "Mykola"
+						},
+						"lastName": {
+							"EN": "Balakin",
+							"FR": "Balakin",
+							"DE": "Balakin",
+							"ES": "Balakin",
+							"PT": "Balakin",
+							"IT": "Balakin",
+							"RU": "Balakin",
+							"ZH": "Balakin",
+							"TR": "Balakin",
+							"HU": "Balakin",
+							"CS": "Balakin",
+							"NL": "Balakin"
+						},
+						"name": {
+							"EN": "Mykola Balakin",
+							"FR": "Mykola Balakin",
+							"DE": "Mykola Balakin",
+							"ES": "Mykola Balakin",
+							"PT": "Mykola Balakin",
+							"IT": "Mykola Balakin",
+							"RU": "Николай Балакин",
+							"ZH": "Mykola Balakin",
+							"TR": "Mykola Balakin",
+							"HU": "Mykola Balakin",
+							"CS": "Mykola Balakin",
+							"NL": "Mykola Balakin"
+						},
+						"shortName": {
+							"EN": "Balakin",
+							"FR": "Balakin",
+							"DE": "Balakin",
+							"ES": "Balakin",
+							"PT": "Balakin",
+							"IT": "Balakin",
+							"RU": "Балакин",
+							"ZH": "Balakin",
+							"TR": "Balakin",
+							"HU": "Balakin",
+							"CS": "Balakin",
+							"NL": "Balakin"
+						}
+					}
+				},
+				"role": "FOURTH_OFFICIAL",
+				"translations": {
+					"roleName": {
+						"EN": "Fourth official",
+						"FR": "Quatrième arbitre",
+						"DE": "Vierter Offizieller",
+						"ES": "Cuarto árbitro",
+						"PT": "Quarto árbitro",
+						"IT": "Quarto uomo",
+						"RU": "Четвертый рефери",
+						"ZH": "Quarto árbitro",
+						"TR": "Fourth official",
+						"HU": "Fourth official",
+						"CS": "Fourth official",
+						"NL": "Fourth official"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250039023.jpg"
+				},
+				"person": {
+					"countryCode": "POR",
+					"gender": "MALE",
+					"id": "250039023",
+					"translations": {
+						"countryName": {
+							"EN": "Portugal",
+							"FR": "Portugal",
+							"DE": "Portugal",
+							"ES": "Portugal",
+							"PT": "Portugal",
+							"IT": "Portogallo",
+							"RU": "Португалия",
+							"ZH": "葡萄牙",
+							"TR": "Portugal",
+							"HU": "Portugal",
+							"CS": "Portugal",
+							"NL": "Portugal"
+						},
+						"firstName": {
+							"EN": "Paulo",
+							"FR": "Paulo",
+							"DE": "Paulo",
+							"ES": "Paulo",
+							"PT": "Paulo",
+							"IT": "Paulo",
+							"RU": "Paulo Alexandre",
+							"ZH": "Paulo Alexandre",
+							"TR": "Paulo Alexandre",
+							"HU": "Paulo Alexandre",
+							"CS": "Paulo Alexandre",
+							"NL": "Paulo Alexandre"
+						},
+						"lastName": {
+							"EN": "Soares",
+							"FR": "Soares",
+							"DE": "Soares",
+							"ES": "Soares",
+							"PT": "Soares",
+							"IT": "Soares",
+							"RU": "Santos Soares",
+							"ZH": "Santos Soares",
+							"TR": "Santos Soares",
+							"HU": "Santos Soares",
+							"CS": "Santos Soares",
+							"NL": "Santos Soares"
+						},
+						"name": {
+							"EN": "Paulo Soares",
+							"FR": "Paulo Soares",
+							"DE": "Paulo Soares",
+							"ES": "Paulo Soares",
+							"PT": "Paulo Soares",
+							"IT": "Paulo Soares",
+							"RU": "Паулу Соареш",
+							"ZH": "保罗·索亚雷斯",
+							"TR": "Paulo Soares",
+							"HU": "Paulo Soares",
+							"CS": "Paulo Soares",
+							"NL": "Paulo Soares"
+						},
+						"shortName": {
+							"EN": "Soares",
+							"FR": "Soares",
+							"DE": "Soares",
+							"ES": "Soares",
+							"PT": "Soares",
+							"IT": "Soares",
+							"RU": "Соареш",
+							"ZH": "保罗·索亚雷斯",
+							"TR": "Paulo Soares",
+							"HU": "Paulo Soares",
+							"CS": "Paulo Soares",
+							"NL": "Paulo Soares"
+						}
+					}
+				},
+				"role": "ASSISTANT_REFEREE_ONE",
+				"translations": {
+					"roleName": {
+						"EN": "Assistant referees",
+						"FR": "Arbitres assistants",
+						"DE": "Schiedsrichterassistenten",
+						"ES": "Árbitros asistentes",
+						"PT": "Árbitros assistentes",
+						"IT": "Assistenti arbitrali",
+						"RU": "Ассистенты рефери",
+						"ZH": "Árbitros assistentes",
+						"TR": "Assistant referees",
+						"HU": "Assistant referees",
+						"CS": "Assistant referees",
+						"NL": "Assistant referees"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250062203.jpg"
+				},
+				"person": {
+					"countryCode": "ESP",
+					"gender": "MALE",
+					"id": "250062203",
+					"translations": {
+						"countryName": {
+							"EN": "Spain",
+							"FR": "Espagne",
+							"DE": "Spanien",
+							"ES": "España",
+							"PT": "Espanha",
+							"IT": "Spagna",
+							"RU": "Испания",
+							"ZH": "西班牙",
+							"TR": "Spain",
+							"HU": "Spain",
+							"CS": "Spain",
+							"NL": "Spain"
+						},
+						"firstName": {
+							"EN": "Alejandro",
+							"FR": "Alejandro",
+							"DE": "Alejandro",
+							"ES": "Alejandro",
+							"PT": "Alejandro",
+							"IT": "Alejandro",
+							"RU": "Alejandro Jose",
+							"ZH": "Alejandro",
+							"TR": "Alejandro Jose",
+							"HU": "Alejandro Jose",
+							"CS": "Alejandro Jose",
+							"NL": "Alejandro Jose"
+						},
+						"lastName": {
+							"EN": "Hernández",
+							"FR": "Hernández",
+							"DE": "Hernández",
+							"ES": "Hernández",
+							"PT": "Hernández",
+							"IT": "Hernández",
+							"RU": "Hernandez Hernandez",
+							"ZH": "Hernandez Hernandez",
+							"TR": "Hernandez Hernandez",
+							"HU": "Hernandez Hernandez",
+							"CS": "Hernandez Hernandez",
+							"NL": "Hernandez Hernandez"
+						},
+						"name": {
+							"EN": "Alejandro Hernández",
+							"FR": "Alejandro Hernández",
+							"DE": "Alejandro Hernández",
+							"ES": "Alejandro Hernández",
+							"PT": "Alejandro Hernández",
+							"IT": "Alejandro Hernández",
+							"RU": "Алехандро Эрнандес",
+							"ZH": "阿莱桑德罗·赫尔南德斯",
+							"TR": "Alejandro Hernández",
+							"HU": "Alejandro Hernández",
+							"CS": "Alejandro Hernández",
+							"NL": "Alejandro Hernández"
+						},
+						"shortName": {
+							"EN": "Hernández",
+							"FR": "Hernández",
+							"DE": "Hernández",
+							"ES": "Hernández",
+							"PT": "Hernández",
+							"IT": "Hernández",
+							"RU": "Эрнандес",
+							"ZH": "阿莱桑德罗·赫尔南德斯",
+							"TR": "Hernández",
+							"HU": "Hernández",
+							"CS": "Hernández",
+							"NL": "Hernández"
+						}
+					}
+				},
+				"role": "ASSISTANT_VIDEO_ASSISTANT_REFEREE_ONE",
+				"translations": {
+					"roleName": {
+						"EN": "Assistant Video Assistant Referee 1",
+						"FR": "Assistant de l'Arbitre Assistant Vidéo 1",
+						"DE": "Erster Assistent des Videoassistenten",
+						"ES": "Asistente 1 del Árbitro Asistente de Vídeo",
+						"PT": "Assistente de Vídeo Árbitro Assistente 1",
+						"IT": "Assistente 1 Video Assistant Referee",
+						"RU": "Ассистент видеопомощника рефери 1",
+						"ZH": "Assistente de Vídeo Árbitro Assistente 1",
+						"TR": "Assistant Video Assistant Referee 1",
+						"HU": "Assistant Video Assistant Referee 1",
+						"CS": "Assistant Video Assistant Referee 1",
+						"NL": "Assistant Video Assistant Referee 1"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250080703.jpg"
+				},
+				"person": {
+					"countryCode": "POR",
+					"gender": "MALE",
+					"id": "250080703",
+					"translations": {
+						"countryName": {
+							"EN": "Portugal",
+							"FR": "Portugal",
+							"DE": "Portugal",
+							"ES": "Portugal",
+							"PT": "Portugal",
+							"IT": "Portogallo",
+							"RU": "Португалия",
+							"ZH": "葡萄牙",
+							"TR": "Portugal",
+							"HU": "Portugal",
+							"CS": "Portugal",
+							"NL": "Portugal"
+						},
+						"firstName": {
+							"EN": "Tiago",
+							"FR": "Tiago",
+							"DE": "Tiago",
+							"ES": "Tiago",
+							"PT": "Tiago",
+							"IT": "Tiago",
+							"RU": "Tiago Bruno",
+							"ZH": "Tiago Bruno",
+							"TR": "Tiago Bruno",
+							"HU": "Tiago Bruno",
+							"CS": "Tiago Bruno",
+							"NL": "Tiago Bruno"
+						},
+						"lastName": {
+							"EN": "Martins",
+							"FR": "Martins",
+							"DE": "Martins",
+							"ES": "Martins",
+							"PT": "Martins",
+							"IT": "Martins",
+							"RU": "Lopes Martins",
+							"ZH": "Lopes Martins",
+							"TR": "Lopes Martins",
+							"HU": "Lopes Martins",
+							"CS": "Lopes Martins",
+							"NL": "Lopes Martins"
+						},
+						"name": {
+							"EN": "Tiago Martins",
+							"FR": "Tiago Martins",
+							"DE": "Tiago Martins",
+							"ES": "Tiago Martins",
+							"PT": "Tiago Martins",
+							"IT": "Tiago Martins",
+							"RU": "Тьягу Мартинш",
+							"ZH": "蒂亚戈·马丁斯",
+							"TR": "Tiago Martins",
+							"HU": "Tiago Martins",
+							"CS": "Tiago Martins",
+							"NL": "Tiago Martins"
+						},
+						"shortName": {
+							"EN": "Martins",
+							"FR": "Martins",
+							"DE": "Martins",
+							"ES": "Martins",
+							"PT": "Martins",
+							"IT": "Martins",
+							"RU": "Мартинш",
+							"ZH": "马丁斯",
+							"TR": "Martins",
+							"HU": "Martins",
+							"CS": "Martins",
+							"NL": "Martins"
+						}
+					}
+				},
+				"role": "VIDEO_ASSISTANT_REFEREE",
+				"translations": {
+					"roleName": {
+						"EN": "Video Assistant Referee",
+						"FR": "Arbitre assistant vidéo",
+						"DE": "Videoassistent",
+						"ES": "Árbitro Asistente de Vídeo",
+						"PT": "Vídeo Árbitro Assistente",
+						"IT": "Video Assistant Referee",
+						"RU": "Видеопомощник рефери",
+						"ZH": "Vídeo Árbitro Assistente",
+						"TR": "Video Assistant Referee",
+						"HU": "Video Assistant Referee",
+						"CS": "Video Assistant Referee",
+						"NL": "Video Assistant Referee"
+					}
+				}
+			}
+		],
+		"round": {
+			"active": true,
+			"benchGKCount": 3,
+			"benchPlayersCount": 15,
+			"benchStaffCount": 11,
+			"coefficientWinnerBonus": 0,
+			"competitionId": "3",
+			"dateFrom": "2024-06-13T22:00:00+0000",
+			"dateTo": "2024-06-26T21:59:59+0000",
+			"fieldPlayersCount": 11,
+			"groupCount": 6,
+			"id": "2001079",
+			"metaData": {
+				"name": "Final tournament",
+				"type": "GROUP_STANDINGS"
+			},
+			"mode": "GROUP",
+			"modeDetail": "GROUP",
+			"orderInCompetition": 4,
+			"phase": "TOURNAMENT",
+			"seasonYear": "2024",
+			"secondaryType": "GROUP_PHASE",
+			"stadiumNameType": "SPECIAL_EVENTS_NAME",
+			"status": "CURRENT",
+			"substitutionCount": 3,
+			"teamCount": 24,
+			"teams": [
+				"47",
+				"56370",
+				"110",
+				"2612703",
+				"113",
+				"2612702",
+				"2602971",
+				"2612701",
+				"2602970",
+				"2612700",
+				"117",
+				"2602972",
+				"95",
+				"58837",
+				"58836",
+				"13",
+				"57",
+				"2612697",
+				"2612696",
+				"122",
+				"2",
+				"2609533",
+				"57157",
+				"2612699",
+				"128",
+				"2612698",
+				"8",
+				"66",
+				"57163",
+				"57166",
+				"2602959",
+				"135",
+				"35",
+				"39",
+				"2602964",
+				"2602963",
+				"2613169",
+				"2602966",
+				"2602965",
+				"2602968",
+				"2602967",
+				"2602969",
+				"147",
+				"2602960",
+				"2609555",
+				"2602962",
+				"2602961",
+				"109",
+				"43"
+			],
+			"translations": {
+				"abbreviation": {
+					"EN": "GS",
+					"FR": "Ph. gr.",
+					"DE": "GP",
+					"ES": "FG",
+					"PT": "Gr.",
+					"IT": "Grp",
+					"RU": "ГЭ",
+					"ZH": "GS",
+					"TR": "GS",
+					"HU": "GS",
+					"CS": "GS",
+					"NL": "GS"
+				},
+				"name": {
+					"EN": "Group stage",
+					"FR": "Phase de groupes",
+					"DE": "Gruppenphase",
+					"ES": "Fase de grupos",
+					"PT": "Grupos",
+					"IT": "Fase a gironi",
+					"RU": "Групповой этап",
+					"ZH": "Group stage",
+					"TR": "Group stage",
+					"HU": "Csoportkör",
+					"CS": "Group stage",
+					"NL": "Groepsfase"
+				},
+				"shortName": {
+					"EN": "Group stage",
+					"FR": "Phase de groupes",
+					"DE": "Gruppenphase",
+					"ES": "Fase de grupos",
+					"PT": "Fase de grupos",
+					"IT": "Fase a gironi",
+					"RU": "Групповой этап",
+					"ZH": "小组赛",
+					"TR": "Group stage",
+					"HU": "Csoportkör",
+					"CS": "Group stage",
+					"NL": "Groepsfase"
+				}
+			}
+		},
+		"seasonYear": "2024",
+		"sessionNumber": 2,
+		"stadium": {
+			"address": "Mörfelder Landstrasse 362",
+			"capacity": 49474,
+			"city": {
+				"countryCode": "GER",
+				"id": "1648",
+				"translations": {
+					"name": {
+						"EN": "Frankfurt am Main",
+						"FR": "Francfort",
+						"DE": "Frankfurt",
+						"ES": "Fráncfort del Meno",
+						"PT": "Frankfurt Am Main",
+						"IT": "Francoforte",
+						"RU": "Франкфурт-на-Майне",
+						"ZH": "法兰克福",
+						"TR": "Frankfurt am Main",
+						"HU": "Frankfurt am Main",
+						"CS": "Frankfurt am Main",
+						"NL": "Frankfurt am Main"
+					}
+				}
+			},
+			"countryCode": "GER",
+			"geolocation": {
+				"latitude": 50.0685861,
+				"longitude": 8.6454556
+			},
+			"id": "85690",
+			"images": {
+				"MEDIUM_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/w1/85690.jpg",
+				"LARGE_ULTRA_WIDE": "https://img.uefa.com/imgml/stadium/matchinfo/uw/85690.jpg"
+			},
+			"openingDate": "2002-01-01",
+			"pitch": {
+				"length": 105,
+				"width": 68
+			},
+			"translations": {
+				"mediaName": {
+					"EN": "Frankfurt Stadion",
+					"FR": "Frankfurt Stadion",
+					"DE": "Frankfurt Stadion",
+					"ES": "Frankfurt Stadion",
+					"PT": "Frankfurt Stadion",
+					"IT": "Frankfurt Stadion",
+					"RU": "Франкфуртштадион",
+					"ZH": "Frankfurt Stadion",
+					"TR": "Frankfurt Stadion",
+					"HU": "Frankfurt Stadion",
+					"CS": "Frankfurt Stadion",
+					"NL": "Frankfurt Stadion"
+				},
+				"name": {
+					"EN": "Frankfurt Arena",
+					"FR": "Frankfurt Arena",
+					"DE": "Frankfurt Arena",
+					"ES": "Frankfurt Arena",
+					"PT": "Frankfurt Arena",
+					"IT": "Frankfurt Arena",
+					"RU": "Франкфурт Арена",
+					"ZH": "Frankfurt Stadion",
+					"TR": "Frankfurt Stadion",
+					"HU": "Frankfurt Stadion",
+					"CS": "Frankfurt Stadion",
+					"NL": "Frankfurt Stadion"
+				},
+				"officialName": {
+					"EN": "Frankfurt Stadion",
+					"FR": "Frankfurt Stadion",
+					"DE": "Frankfurt Stadion",
+					"ES": "Frankfurt Stadion",
+					"PT": "Frankfurt Stadion",
+					"IT": "Frankfurt Stadion",
+					"RU": "Франкфуртштадион",
+					"ZH": "法兰克福球场",
+					"TR": "Frankfurt Stadion",
+					"HU": "Frankfurt Stadion",
+					"CS": "Frankfurt Stadion",
+					"NL": "Frankfurt Stadion"
+				},
+				"specialEventsName": {
+					"EN": "Frankfurt Arena",
+					"FR": "Frankfurt Arena",
+					"DE": "Frankfurt Arena",
+					"ES": "Frankfurt Arena",
+					"PT": "Frankfurt Arena",
+					"IT": "Frankfurt Arena",
+					"RU": "Франкфурт Арена",
+					"ZH": "Frankfurt Stadion",
+					"TR": "Frankfurt Stadion",
+					"HU": "Frankfurt Stadion",
+					"CS": "Frankfurt Stadion",
+					"NL": "Frankfurt Stadion"
+				},
+				"sponsorName": {
+					"EN": "Deutsche Bank Park",
+					"FR": "Deutsche Bank Park",
+					"DE": "Deutsche Bank Park",
+					"ES": "Deutsche Bank Park",
+					"PT": "Deutsche Bank Park",
+					"IT": "Deutsche Bank Park",
+					"RU": "Deutsche Bank Парк",
+					"ZH": "Commerzbank Arena",
+					"TR": "Commerzbank Arena",
+					"HU": "Commerzbank Arena",
+					"CS": "Commerzbank Arena",
+					"NL": "Commerzbank Arena"
+				}
+			}
+		},
+		"status": "UPCOMING",
+		"type": "GROUP_STAGE"
+	}
+]
