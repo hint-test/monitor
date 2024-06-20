@@ -17,6 +17,9 @@
 		"id": "uefa_match_2036177_livescore",
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036177",
 		"format": true,
+		"filters": [
+			"normal"
+		],
 		"notify": true
 	},
 	{
@@ -36,8 +39,7 @@
 	{
 		"id": "uefa_match_2036178_livescore",
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036178",
-		"format": true,
-		"notify": true
+		"format": true
 	},
 	{
 		"id": "uefa_match_2036175",
@@ -56,8 +58,7 @@
 	{
 		"id": "uefa_match_2036175_livescore",
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036175",
-		"format": true,
-		"notify": true
+		"format": true
 	}
 ]
 
