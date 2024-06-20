@@ -18,7 +18,8 @@
 		"url": "https://match.uefa.com/v5/livescore?matchId=2036177",
 		"format": true,
 		"filters": [
-			"normal"
+			"hash",
+			"minute"
 		],
 		"notify": true
 	},
