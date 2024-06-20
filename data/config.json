@@ -1,26 +1,61 @@
 [
 	{
-		"id": "v4_feeds_335e0ae8-1354-4062-90c5-3ecec351bda4_items",
-		"url": "https://ottapp-appgw-client-a.proda.msn.tv3cloud.com/S1/discovery/v4/feeds/1ad86f5a-c5d4-41de-89c0-2819b56fa01e/items?$groups=4000000,4000001,1027&storeId=HubsAndFeeds-Main",
-		"format": true
-	},
-	{
-		"id": "uefa_match_2036176",
-		"url": "https://match.uefa.com/v5/matches?matchId=2036176",
+		"id": "uefa_match_2036177",
+		"url": "https://match.uefa.com/v5/matches?matchId=2036177",
 		"format": true,
 		"filters": [
 			"referees"
 		]
 	},
 	{
-		"id": "uefa_match_2036176_events",
-		"url": "https://match.uefa.com/v5/matches/2036176/events?filter=ALL&offset=0&limit=500&order=ASC",
+		"id": "uefa_match_2036177_events",
+		"url": "https://match.uefa.com/v5/matches/2036177/events?filter=ALL&offset=0&limit=500&order=ASC",
 		"format": true,
 		"condition": "length"
 	},
 	{
-		"id": "uefa_match_2036176_livescore",
-		"url": "https://match.uefa.com/v5/livescore?matchId=2036176",
+		"id": "uefa_match_2036177_livescore",
+		"url": "https://match.uefa.com/v5/livescore?matchId=2036177",
+		"format": true,
+		"notify": true
+	},
+	{
+		"id": "uefa_match_2036178",
+		"url": "https://match.uefa.com/v5/matches?matchId=2036178",
+		"format": true,
+		"filters": [
+			"referees"
+		]
+	},
+	{
+		"id": "uefa_match_2036178_events",
+		"url": "https://match.uefa.com/v5/matches/2036178/events?filter=ALL&offset=0&limit=500&order=ASC",
+		"format": true,
+		"condition": "length"
+	},
+	{
+		"id": "uefa_match_2036178_livescore",
+		"url": "https://match.uefa.com/v5/livescore?matchId=2036178",
+		"format": true,
+		"notify": true
+	},
+	{
+		"id": "uefa_match_2036175",
+		"url": "https://match.uefa.com/v5/matches?matchId=2036175",
+		"format": true,
+		"filters": [
+			"referees"
+		]
+	},
+	{
+		"id": "uefa_match_2036175_events",
+		"url": "https://match.uefa.com/v5/matches/2036175/events?filter=ALL&offset=0&limit=500&order=ASC",
+		"format": true,
+		"condition": "length"
+	},
+	{
+		"id": "uefa_match_2036175_livescore",
+		"url": "https://match.uefa.com/v5/livescore?matchId=2036175",
 		"format": true,
 		"notify": true
 	}
