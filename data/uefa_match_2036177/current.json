@@ -366,406 +366,10 @@
 			"type": "MATCHDAY"
 		},
 		"minute": {
-			"normal": 27
+			"normal": 28
 		},
 		"phase": "FIRST_HALF",
 		"referees": [
-			{
-				"images": {
-					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250057091.jpg"
-				},
-				"person": {
-					"countryCode": "ROU",
-					"gender": "MALE",
-					"id": "250057091",
-					"translations": {
-						"countryName": {
-							"EN": "Romania",
-							"FR": "Roumanie",
-							"DE": "Rumänien",
-							"ES": "Rumanía",
-							"PT": "Roménia",
-							"IT": "Romania",
-							"RU": "Румыния",
-							"ZH": "罗马尼亚",
-							"TR": "Romania",
-							"HU": "Romania",
-							"CS": "Romania",
-							"NL": "Romania"
-						},
-						"firstName": {
-							"EN": "Vasile",
-							"FR": "Vasile",
-							"DE": "Vasile",
-							"ES": "Vasile",
-							"PT": "Vasile",
-							"IT": "Vasile",
-							"RU": "Vasile Florin",
-							"ZH": "Vasile Florin",
-							"TR": "Vasile Florin",
-							"HU": "Vasile Florin",
-							"CS": "Vasile Florin",
-							"NL": "Vasile Florin"
-						},
-						"lastName": {
-							"EN": "Marinescu",
-							"FR": "Marinescu",
-							"DE": "Marinescu",
-							"ES": "Marinescu",
-							"PT": "Marinescu",
-							"IT": "Marinescu",
-							"RU": "Marinescu",
-							"ZH": "Marinescu",
-							"TR": "Marinescu",
-							"HU": "Marinescu",
-							"CS": "Marinescu",
-							"NL": "Marinescu"
-						},
-						"name": {
-							"EN": "Vasile Marinescu",
-							"FR": "Vasile Marinescu",
-							"DE": "Vasile Marinescu",
-							"ES": "Vasile Marinescu",
-							"PT": "Vasile Marinescu",
-							"IT": "Vasile Marinescu",
-							"RU": "Василе Флорин Маринеску",
-							"ZH": "瓦斯里·弗洛林·马里内斯库",
-							"TR": "Vasile Florin Marinescu",
-							"HU": "Vasile Florin Marinescu",
-							"CS": "Vasile Florin Marinescu",
-							"NL": "Vasile Florin Marinescu"
-						},
-						"shortName": {
-							"EN": "Marinescu",
-							"FR": "Marinescu",
-							"DE": "Marinescu",
-							"ES": "Marinescu",
-							"PT": "Marinescu",
-							"IT": "Marinescu",
-							"RU": "Маринеску",
-							"ZH": "马里内斯库",
-							"TR": "Marinescu",
-							"HU": "Marinescu",
-							"CS": "Marinescu",
-							"NL": "Marinescu"
-						}
-					}
-				},
-				"role": "ASSISTANT_REFEREE_ONE",
-				"translations": {
-					"roleName": {
-						"EN": "Assistant referees",
-						"FR": "Arbitres assistants",
-						"DE": "Schiedsrichterassistenten",
-						"ES": "Árbitros asistentes",
-						"PT": "Árbitros assistentes",
-						"IT": "Assistenti arbitrali",
-						"RU": "Ассистенты рефери",
-						"ZH": "Árbitros assistentes",
-						"TR": "Assistant referees",
-						"HU": "Assistant referees",
-						"CS": "Assistant referees",
-						"NL": "Assistant referees"
-					}
-				}
-			},
-			{
-				"images": {
-					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/150600594.jpg"
-				},
-				"person": {
-					"countryCode": "LVA",
-					"gender": "MALE",
-					"id": "150600594",
-					"translations": {
-						"countryName": {
-							"EN": "Latvia",
-							"FR": "Lettonie",
-							"DE": "Lettland",
-							"ES": "Letonia",
-							"PT": "Letónia",
-							"IT": "Lettonia",
-							"RU": "Латвия",
-							"ZH": "拉脱维亚",
-							"TR": "Latvia",
-							"HU": "Latvia",
-							"CS": "Latvia",
-							"NL": "Latvia"
-						},
-						"firstName": {
-							"EN": "Arturs",
-							"FR": "Arturs",
-							"DE": "Arturs",
-							"ES": "Arturs",
-							"PT": "Arturs",
-							"IT": "Arturs",
-							"RU": "Arturs",
-							"ZH": "Arturs",
-							"TR": "Arturs",
-							"HU": "Arturs",
-							"CS": "Arturs",
-							"NL": "Arturs"
-						},
-						"lastName": {
-							"EN": "Gaidels",
-							"FR": "Gaidels",
-							"DE": "Gaidels",
-							"ES": "Gaidels",
-							"PT": "Gaidels",
-							"IT": "Gaidels",
-							"RU": "Gaidels",
-							"ZH": "Gaidels",
-							"TR": "Gaidels",
-							"HU": "Gaidels",
-							"CS": "Gaidels",
-							"NL": "Gaidels"
-						},
-						"name": {
-							"EN": "Arturs Gaidels",
-							"FR": "Arturs Gaidels",
-							"DE": "Arturs Gaidels",
-							"ES": "Arturs Gaidels",
-							"PT": "Arturs Gaidels",
-							"IT": "Arturs Gaidels",
-							"RU": "Arturs Gaidels",
-							"ZH": "Arturs Gaidels",
-							"TR": "Arturs Gaidels",
-							"HU": "Arturs Gaidels",
-							"CS": "Arturs Gaidels",
-							"NL": "Arturs Gaidels"
-						},
-						"shortName": {
-							"EN": "Gaidels",
-							"FR": "Gaidels",
-							"DE": "Gaidels",
-							"ES": "Gaidels",
-							"PT": "Gaidels",
-							"IT": "Gaidels",
-							"RU": "Gaidels",
-							"ZH": "Gaidels",
-							"TR": "Gaidels",
-							"HU": "Gaidels",
-							"CS": "Gaidels",
-							"NL": "Gaidels"
-						}
-					}
-				},
-				"role": "UEFA_DELEGATE",
-				"translations": {
-					"roleName": {
-						"EN": "UEFA Delegate",
-						"FR": "Délégué ou déléguée UEFA",
-						"DE": "UEFA-Delegierter",
-						"ES": "Delegado UEFA",
-						"PT": "Delegado da UEFA",
-						"IT": "Delegata UEFA",
-						"RU": "Делегат УЕФА",
-						"ZH": "UEFA delegate",
-						"TR": "UEFA Delegate",
-						"HU": "UEFA delegate",
-						"CS": "UEFA Delegate",
-						"NL": "UEFA delegate"
-					}
-				}
-			},
-			{
-				"images": {
-					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250001771.jpg"
-				},
-				"person": {
-					"countryCode": "ROU",
-					"gender": "MALE",
-					"id": "250001771",
-					"translations": {
-						"countryName": {
-							"EN": "Romania",
-							"FR": "Roumanie",
-							"DE": "Rumänien",
-							"ES": "Rumanía",
-							"PT": "Roménia",
-							"IT": "Romania",
-							"RU": "Румыния",
-							"ZH": "罗马尼亚",
-							"TR": "Romania",
-							"HU": "Romania",
-							"CS": "Romania",
-							"NL": "Romania"
-						},
-						"firstName": {
-							"EN": "István",
-							"FR": "István",
-							"DE": "István",
-							"ES": "István",
-							"PT": "István",
-							"IT": "István",
-							"RU": "Istvan",
-							"ZH": "Istvan",
-							"TR": "Istvan",
-							"HU": "Istvan",
-							"CS": "Istvan",
-							"NL": "Istvan"
-						},
-						"lastName": {
-							"EN": "Kovács",
-							"FR": "Kovács",
-							"DE": "Kovács",
-							"ES": "Kovács",
-							"PT": "Kovács",
-							"IT": "Kovács",
-							"RU": "Kovacs",
-							"ZH": "Kovacs",
-							"TR": "Kovacs",
-							"HU": "Kovacs",
-							"CS": "Kovacs",
-							"NL": "Kovacs"
-						},
-						"name": {
-							"EN": "István Kovács",
-							"FR": "István Kovács",
-							"DE": "István Kovács",
-							"ES": "István Kovács",
-							"PT": "István Kovács",
-							"IT": "István Kovács",
-							"RU": "Иштван Ковач",
-							"ZH": "伊斯特万·科瓦茨",
-							"TR": "István Kovács",
-							"HU": "István Kovács",
-							"CS": "István Kovács",
-							"NL": "István Kovács"
-						},
-						"shortName": {
-							"EN": "Kovács",
-							"FR": "Kovács",
-							"DE": "Kovács",
-							"ES": "Kovács",
-							"PT": "Kovács",
-							"IT": "Kovács",
-							"RU": "Ковач",
-							"ZH": "科瓦茨",
-							"TR": "Kovács",
-							"HU": "Kovács",
-							"CS": "Kovács",
-							"NL": "Kovács"
-						}
-					}
-				},
-				"role": "REFEREE",
-				"translations": {
-					"roleName": {
-						"EN": "Referee",
-						"FR": "Arbitre",
-						"DE": "Schiedsrichter",
-						"ES": "Árbitro",
-						"PT": "Árbitro",
-						"IT": "Arbitro",
-						"RU": "Рефери",
-						"ZH": "Árbitro",
-						"TR": "Referee",
-						"HU": "Referee",
-						"CS": "Referee",
-						"NL": "Referee"
-					}
-				}
-			},
-			{
-				"images": {
-					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/288532.jpg"
-				},
-				"person": {
-					"countryCode": "ESP",
-					"gender": "MALE",
-					"id": "288532",
-					"translations": {
-						"countryName": {
-							"EN": "Spain",
-							"FR": "Espagne",
-							"DE": "Spanien",
-							"ES": "España",
-							"PT": "Espanha",
-							"IT": "Spagna",
-							"RU": "Испания",
-							"ZH": "西班牙",
-							"TR": "Spain",
-							"HU": "Spain",
-							"CS": "Spain",
-							"NL": "Spain"
-						},
-						"firstName": {
-							"EN": "David",
-							"FR": "David",
-							"DE": "David",
-							"ES": "David",
-							"PT": "David",
-							"IT": "David",
-							"RU": "David",
-							"ZH": "David",
-							"TR": "David Jose",
-							"HU": "David Jose",
-							"CS": "David Jose",
-							"NL": "David Jose"
-						},
-						"lastName": {
-							"EN": "Fernández Borbalán",
-							"FR": "Fernández Borbalán",
-							"DE": "Fernández Borbalán",
-							"ES": "Fernández Borbalán",
-							"PT": "Fernández Borbalán",
-							"IT": "Fernández Borbalán",
-							"RU": "Fernandez Borbalan",
-							"ZH": "Fernandez Borbalan",
-							"TR": "Fernandez Borbalan",
-							"HU": "Fernandez Borbalan",
-							"CS": "Fernandez Borbalan",
-							"NL": "Fernandez Borbalan"
-						},
-						"name": {
-							"EN": "David Fernández Borbalán",
-							"FR": "David Fernández Borbalán",
-							"DE": "David Fernández Borbalán",
-							"ES": "David Fernández Borbalán",
-							"PT": "David Fernández Borbalán",
-							"IT": "David Fernández Borbalán",
-							"RU": "Давид Фернандес Борбалан",
-							"ZH": "大卫·费尔南德斯·波尔巴兰",
-							"TR": "David Fernández Borbalán",
-							"HU": "David Fernández Borbalán",
-							"CS": "David Fernández Borbalán",
-							"NL": "David Fernández Borbalán"
-						},
-						"shortName": {
-							"EN": "Fernández Borbalán",
-							"FR": "Fernández Borbalán",
-							"DE": "Fernández Borbalán",
-							"ES": "Fernández Borbalán",
-							"PT": "Fernández Borbalán",
-							"IT": "Fernández Borbalán",
-							"RU": "Фернандес Борбалан",
-							"ZH": "费尔南德斯·波尔巴兰",
-							"TR": "Fernández Borbalán",
-							"HU": "Fernández Borbalán",
-							"CS": "Fernández Borbalán",
-							"NL": "Fernández Borbalán"
-						}
-					}
-				},
-				"role": "REFEREE_OBSERVER",
-				"translations": {
-					"roleName": {
-						"EN": "Referee observer",
-						"FR": "Observateur d'arbitres",
-						"DE": "Referee observer",
-						"ES": "Observador arbitral",
-						"PT": "Observador de árbitro",
-						"IT": "Referee observer",
-						"RU": "Судейский наблюдатель",
-						"ZH": "Referee observer",
-						"TR": "Referee observer",
-						"HU": "Referee observer",
-						"CS": "Referee observer",
-						"NL": "Referee observer"
-					}
-				}
-			},
 			{
 				"images": {
 					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250106995.jpg"
@@ -862,105 +466,6 @@
 						"HU": "Assistant Video Assistant Referee 1",
 						"CS": "Assistant Video Assistant Referee 1",
 						"NL": "Assistant Video Assistant Referee 1"
-					}
-				}
-			},
-			{
-				"images": {
-					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250058829.jpg"
-				},
-				"person": {
-					"countryCode": "NOR",
-					"gender": "MALE",
-					"id": "250058829",
-					"translations": {
-						"countryName": {
-							"EN": "Norway",
-							"FR": "Norvège",
-							"DE": "Norwegen",
-							"ES": "Noruega",
-							"PT": "Noruega",
-							"IT": "Norvegia",
-							"RU": "Норвегия",
-							"ZH": "挪威",
-							"TR": "Norway",
-							"HU": "Norway",
-							"CS": "Norway",
-							"NL": "Norway"
-						},
-						"firstName": {
-							"EN": "Espen",
-							"FR": "Espen",
-							"DE": "Espen",
-							"ES": "Espen",
-							"PT": "Espen",
-							"IT": "Espen",
-							"RU": "Espen",
-							"ZH": "Espen",
-							"TR": "Espen Andreas",
-							"HU": "Espen Andreas",
-							"CS": "Espen Andreas",
-							"NL": "Espen Andreas"
-						},
-						"lastName": {
-							"EN": "Eskås",
-							"FR": "Eskås",
-							"DE": "Eskås",
-							"ES": "Eskås",
-							"PT": "Eskås",
-							"IT": "Eskås",
-							"RU": "Eskås",
-							"ZH": "Eskås",
-							"TR": "Eskås",
-							"HU": "Eskås",
-							"CS": "Eskås",
-							"NL": "Eskås"
-						},
-						"name": {
-							"EN": "Espen Eskås",
-							"FR": "Espen Eskås",
-							"DE": "Espen Eskås",
-							"ES": "Espen Eskås",
-							"PT": "Espen Eskås",
-							"IT": "Espen Eskås",
-							"RU": "Эспен Эскос",
-							"ZH": "Espen Eskås",
-							"TR": "Espen Eskås",
-							"HU": "Espen Eskås",
-							"CS": "Espen Eskås",
-							"NL": "Espen Eskås"
-						},
-						"shortName": {
-							"EN": "Eskås",
-							"FR": "Eskås",
-							"DE": "Eskås",
-							"ES": "Eskås",
-							"PT": "Eskås",
-							"IT": "Eskås",
-							"RU": "Эскос",
-							"ZH": "Eskås",
-							"TR": "Eskås",
-							"HU": "Eskås",
-							"CS": "Eskås",
-							"NL": "Eskås"
-						}
-					}
-				},
-				"role": "FOURTH_OFFICIAL",
-				"translations": {
-					"roleName": {
-						"EN": "Fourth official",
-						"FR": "Quatrième arbitre",
-						"DE": "Vierter Offizieller",
-						"ES": "Cuarto árbitro",
-						"PT": "Quarto árbitro",
-						"IT": "Quarto uomo",
-						"RU": "Четвертый рефери",
-						"ZH": "Quarto árbitro",
-						"TR": "Fourth official",
-						"HU": "Fourth official",
-						"CS": "Fourth official",
-						"NL": "Fourth official"
 					}
 				}
 			},
@@ -1258,6 +763,501 @@
 						"HU": "Video Assistant Referee",
 						"CS": "Video Assistant Referee",
 						"NL": "Video Assistant Referee"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250058829.jpg"
+				},
+				"person": {
+					"countryCode": "NOR",
+					"gender": "MALE",
+					"id": "250058829",
+					"translations": {
+						"countryName": {
+							"EN": "Norway",
+							"FR": "Norvège",
+							"DE": "Norwegen",
+							"ES": "Noruega",
+							"PT": "Noruega",
+							"IT": "Norvegia",
+							"RU": "Норвегия",
+							"ZH": "挪威",
+							"TR": "Norway",
+							"HU": "Norway",
+							"CS": "Norway",
+							"NL": "Norway"
+						},
+						"firstName": {
+							"EN": "Espen",
+							"FR": "Espen",
+							"DE": "Espen",
+							"ES": "Espen",
+							"PT": "Espen",
+							"IT": "Espen",
+							"RU": "Espen",
+							"ZH": "Espen",
+							"TR": "Espen Andreas",
+							"HU": "Espen Andreas",
+							"CS": "Espen Andreas",
+							"NL": "Espen Andreas"
+						},
+						"lastName": {
+							"EN": "Eskås",
+							"FR": "Eskås",
+							"DE": "Eskås",
+							"ES": "Eskås",
+							"PT": "Eskås",
+							"IT": "Eskås",
+							"RU": "Eskås",
+							"ZH": "Eskås",
+							"TR": "Eskås",
+							"HU": "Eskås",
+							"CS": "Eskås",
+							"NL": "Eskås"
+						},
+						"name": {
+							"EN": "Espen Eskås",
+							"FR": "Espen Eskås",
+							"DE": "Espen Eskås",
+							"ES": "Espen Eskås",
+							"PT": "Espen Eskås",
+							"IT": "Espen Eskås",
+							"RU": "Эспен Эскос",
+							"ZH": "Espen Eskås",
+							"TR": "Espen Eskås",
+							"HU": "Espen Eskås",
+							"CS": "Espen Eskås",
+							"NL": "Espen Eskås"
+						},
+						"shortName": {
+							"EN": "Eskås",
+							"FR": "Eskås",
+							"DE": "Eskås",
+							"ES": "Eskås",
+							"PT": "Eskås",
+							"IT": "Eskås",
+							"RU": "Эскос",
+							"ZH": "Eskås",
+							"TR": "Eskås",
+							"HU": "Eskås",
+							"CS": "Eskås",
+							"NL": "Eskås"
+						}
+					}
+				},
+				"role": "FOURTH_OFFICIAL",
+				"translations": {
+					"roleName": {
+						"EN": "Fourth official",
+						"FR": "Quatrième arbitre",
+						"DE": "Vierter Offizieller",
+						"ES": "Cuarto árbitro",
+						"PT": "Quarto árbitro",
+						"IT": "Quarto uomo",
+						"RU": "Четвертый рефери",
+						"ZH": "Quarto árbitro",
+						"TR": "Fourth official",
+						"HU": "Fourth official",
+						"CS": "Fourth official",
+						"NL": "Fourth official"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250001771.jpg"
+				},
+				"person": {
+					"countryCode": "ROU",
+					"gender": "MALE",
+					"id": "250001771",
+					"translations": {
+						"countryName": {
+							"EN": "Romania",
+							"FR": "Roumanie",
+							"DE": "Rumänien",
+							"ES": "Rumanía",
+							"PT": "Roménia",
+							"IT": "Romania",
+							"RU": "Румыния",
+							"ZH": "罗马尼亚",
+							"TR": "Romania",
+							"HU": "Romania",
+							"CS": "Romania",
+							"NL": "Romania"
+						},
+						"firstName": {
+							"EN": "István",
+							"FR": "István",
+							"DE": "István",
+							"ES": "István",
+							"PT": "István",
+							"IT": "István",
+							"RU": "Istvan",
+							"ZH": "Istvan",
+							"TR": "Istvan",
+							"HU": "Istvan",
+							"CS": "Istvan",
+							"NL": "Istvan"
+						},
+						"lastName": {
+							"EN": "Kovács",
+							"FR": "Kovács",
+							"DE": "Kovács",
+							"ES": "Kovács",
+							"PT": "Kovács",
+							"IT": "Kovács",
+							"RU": "Kovacs",
+							"ZH": "Kovacs",
+							"TR": "Kovacs",
+							"HU": "Kovacs",
+							"CS": "Kovacs",
+							"NL": "Kovacs"
+						},
+						"name": {
+							"EN": "István Kovács",
+							"FR": "István Kovács",
+							"DE": "István Kovács",
+							"ES": "István Kovács",
+							"PT": "István Kovács",
+							"IT": "István Kovács",
+							"RU": "Иштван Ковач",
+							"ZH": "伊斯特万·科瓦茨",
+							"TR": "István Kovács",
+							"HU": "István Kovács",
+							"CS": "István Kovács",
+							"NL": "István Kovács"
+						},
+						"shortName": {
+							"EN": "Kovács",
+							"FR": "Kovács",
+							"DE": "Kovács",
+							"ES": "Kovács",
+							"PT": "Kovács",
+							"IT": "Kovács",
+							"RU": "Ковач",
+							"ZH": "科瓦茨",
+							"TR": "Kovács",
+							"HU": "Kovács",
+							"CS": "Kovács",
+							"NL": "Kovács"
+						}
+					}
+				},
+				"role": "REFEREE",
+				"translations": {
+					"roleName": {
+						"EN": "Referee",
+						"FR": "Arbitre",
+						"DE": "Schiedsrichter",
+						"ES": "Árbitro",
+						"PT": "Árbitro",
+						"IT": "Arbitro",
+						"RU": "Рефери",
+						"ZH": "Árbitro",
+						"TR": "Referee",
+						"HU": "Referee",
+						"CS": "Referee",
+						"NL": "Referee"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/288532.jpg"
+				},
+				"person": {
+					"countryCode": "ESP",
+					"gender": "MALE",
+					"id": "288532",
+					"translations": {
+						"countryName": {
+							"EN": "Spain",
+							"FR": "Espagne",
+							"DE": "Spanien",
+							"ES": "España",
+							"PT": "Espanha",
+							"IT": "Spagna",
+							"RU": "Испания",
+							"ZH": "西班牙",
+							"TR": "Spain",
+							"HU": "Spain",
+							"CS": "Spain",
+							"NL": "Spain"
+						},
+						"firstName": {
+							"EN": "David",
+							"FR": "David",
+							"DE": "David",
+							"ES": "David",
+							"PT": "David",
+							"IT": "David",
+							"RU": "David",
+							"ZH": "David",
+							"TR": "David Jose",
+							"HU": "David Jose",
+							"CS": "David Jose",
+							"NL": "David Jose"
+						},
+						"lastName": {
+							"EN": "Fernández Borbalán",
+							"FR": "Fernández Borbalán",
+							"DE": "Fernández Borbalán",
+							"ES": "Fernández Borbalán",
+							"PT": "Fernández Borbalán",
+							"IT": "Fernández Borbalán",
+							"RU": "Fernandez Borbalan",
+							"ZH": "Fernandez Borbalan",
+							"TR": "Fernandez Borbalan",
+							"HU": "Fernandez Borbalan",
+							"CS": "Fernandez Borbalan",
+							"NL": "Fernandez Borbalan"
+						},
+						"name": {
+							"EN": "David Fernández Borbalán",
+							"FR": "David Fernández Borbalán",
+							"DE": "David Fernández Borbalán",
+							"ES": "David Fernández Borbalán",
+							"PT": "David Fernández Borbalán",
+							"IT": "David Fernández Borbalán",
+							"RU": "Давид Фернандес Борбалан",
+							"ZH": "大卫·费尔南德斯·波尔巴兰",
+							"TR": "David Fernández Borbalán",
+							"HU": "David Fernández Borbalán",
+							"CS": "David Fernández Borbalán",
+							"NL": "David Fernández Borbalán"
+						},
+						"shortName": {
+							"EN": "Fernández Borbalán",
+							"FR": "Fernández Borbalán",
+							"DE": "Fernández Borbalán",
+							"ES": "Fernández Borbalán",
+							"PT": "Fernández Borbalán",
+							"IT": "Fernández Borbalán",
+							"RU": "Фернандес Борбалан",
+							"ZH": "费尔南德斯·波尔巴兰",
+							"TR": "Fernández Borbalán",
+							"HU": "Fernández Borbalán",
+							"CS": "Fernández Borbalán",
+							"NL": "Fernández Borbalán"
+						}
+					}
+				},
+				"role": "REFEREE_OBSERVER",
+				"translations": {
+					"roleName": {
+						"EN": "Referee observer",
+						"FR": "Observateur d'arbitres",
+						"DE": "Referee observer",
+						"ES": "Observador arbitral",
+						"PT": "Observador de árbitro",
+						"IT": "Referee observer",
+						"RU": "Судейский наблюдатель",
+						"ZH": "Referee observer",
+						"TR": "Referee observer",
+						"HU": "Referee observer",
+						"CS": "Referee observer",
+						"NL": "Referee observer"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/150600594.jpg"
+				},
+				"person": {
+					"countryCode": "LVA",
+					"gender": "MALE",
+					"id": "150600594",
+					"translations": {
+						"countryName": {
+							"EN": "Latvia",
+							"FR": "Lettonie",
+							"DE": "Lettland",
+							"ES": "Letonia",
+							"PT": "Letónia",
+							"IT": "Lettonia",
+							"RU": "Латвия",
+							"ZH": "拉脱维亚",
+							"TR": "Latvia",
+							"HU": "Latvia",
+							"CS": "Latvia",
+							"NL": "Latvia"
+						},
+						"firstName": {
+							"EN": "Arturs",
+							"FR": "Arturs",
+							"DE": "Arturs",
+							"ES": "Arturs",
+							"PT": "Arturs",
+							"IT": "Arturs",
+							"RU": "Arturs",
+							"ZH": "Arturs",
+							"TR": "Arturs",
+							"HU": "Arturs",
+							"CS": "Arturs",
+							"NL": "Arturs"
+						},
+						"lastName": {
+							"EN": "Gaidels",
+							"FR": "Gaidels",
+							"DE": "Gaidels",
+							"ES": "Gaidels",
+							"PT": "Gaidels",
+							"IT": "Gaidels",
+							"RU": "Gaidels",
+							"ZH": "Gaidels",
+							"TR": "Gaidels",
+							"HU": "Gaidels",
+							"CS": "Gaidels",
+							"NL": "Gaidels"
+						},
+						"name": {
+							"EN": "Arturs Gaidels",
+							"FR": "Arturs Gaidels",
+							"DE": "Arturs Gaidels",
+							"ES": "Arturs Gaidels",
+							"PT": "Arturs Gaidels",
+							"IT": "Arturs Gaidels",
+							"RU": "Arturs Gaidels",
+							"ZH": "Arturs Gaidels",
+							"TR": "Arturs Gaidels",
+							"HU": "Arturs Gaidels",
+							"CS": "Arturs Gaidels",
+							"NL": "Arturs Gaidels"
+						},
+						"shortName": {
+							"EN": "Gaidels",
+							"FR": "Gaidels",
+							"DE": "Gaidels",
+							"ES": "Gaidels",
+							"PT": "Gaidels",
+							"IT": "Gaidels",
+							"RU": "Gaidels",
+							"ZH": "Gaidels",
+							"TR": "Gaidels",
+							"HU": "Gaidels",
+							"CS": "Gaidels",
+							"NL": "Gaidels"
+						}
+					}
+				},
+				"role": "UEFA_DELEGATE",
+				"translations": {
+					"roleName": {
+						"EN": "UEFA Delegate",
+						"FR": "Délégué ou déléguée UEFA",
+						"DE": "UEFA-Delegierter",
+						"ES": "Delegado UEFA",
+						"PT": "Delegado da UEFA",
+						"IT": "Delegata UEFA",
+						"RU": "Делегат УЕФА",
+						"ZH": "UEFA delegate",
+						"TR": "UEFA Delegate",
+						"HU": "UEFA delegate",
+						"CS": "UEFA Delegate",
+						"NL": "UEFA delegate"
+					}
+				}
+			},
+			{
+				"images": {
+					"SMALL_SQUARE": "https://img.uefa.com/imgml/referees/75x75/250057091.jpg"
+				},
+				"person": {
+					"countryCode": "ROU",
+					"gender": "MALE",
+					"id": "250057091",
+					"translations": {
+						"countryName": {
+							"EN": "Romania",
+							"FR": "Roumanie",
+							"DE": "Rumänien",
+							"ES": "Rumanía",
+							"PT": "Roménia",
+							"IT": "Romania",
+							"RU": "Румыния",
+							"ZH": "罗马尼亚",
+							"TR": "Romania",
+							"HU": "Romania",
+							"CS": "Romania",
+							"NL": "Romania"
+						},
+						"firstName": {
+							"EN": "Vasile",
+							"FR": "Vasile",
+							"DE": "Vasile",
+							"ES": "Vasile",
+							"PT": "Vasile",
+							"IT": "Vasile",
+							"RU": "Vasile Florin",
+							"ZH": "Vasile Florin",
+							"TR": "Vasile Florin",
+							"HU": "Vasile Florin",
+							"CS": "Vasile Florin",
+							"NL": "Vasile Florin"
+						},
+						"lastName": {
+							"EN": "Marinescu",
+							"FR": "Marinescu",
+							"DE": "Marinescu",
+							"ES": "Marinescu",
+							"PT": "Marinescu",
+							"IT": "Marinescu",
+							"RU": "Marinescu",
+							"ZH": "Marinescu",
+							"TR": "Marinescu",
+							"HU": "Marinescu",
+							"CS": "Marinescu",
+							"NL": "Marinescu"
+						},
+						"name": {
+							"EN": "Vasile Marinescu",
+							"FR": "Vasile Marinescu",
+							"DE": "Vasile Marinescu",
+							"ES": "Vasile Marinescu",
+							"PT": "Vasile Marinescu",
+							"IT": "Vasile Marinescu",
+							"RU": "Василе Флорин Маринеску",
+							"ZH": "瓦斯里·弗洛林·马里内斯库",
+							"TR": "Vasile Florin Marinescu",
+							"HU": "Vasile Florin Marinescu",
+							"CS": "Vasile Florin Marinescu",
+							"NL": "Vasile Florin Marinescu"
+						},
+						"shortName": {
+							"EN": "Marinescu",
+							"FR": "Marinescu",
+							"DE": "Marinescu",
+							"ES": "Marinescu",
+							"PT": "Marinescu",
+							"IT": "Marinescu",
+							"RU": "Маринеску",
+							"ZH": "马里内斯库",
+							"TR": "Marinescu",
+							"HU": "Marinescu",
+							"CS": "Marinescu",
+							"NL": "Marinescu"
+						}
+					}
+				},
+				"role": "ASSISTANT_REFEREE_ONE",
+				"translations": {
+					"roleName": {
+						"EN": "Assistant referees",
+						"FR": "Arbitres assistants",
+						"DE": "Schiedsrichterassistenten",
+						"ES": "Árbitros asistentes",
+						"PT": "Árbitros assistentes",
+						"IT": "Assistenti arbitrali",
+						"RU": "Ассистенты рефери",
+						"ZH": "Árbitros assistentes",
+						"TR": "Assistant referees",
+						"HU": "Assistant referees",
+						"CS": "Assistant referees",
+						"NL": "Assistant referees"
 					}
 				}
 			}
