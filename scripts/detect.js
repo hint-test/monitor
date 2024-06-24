@@ -8,6 +8,7 @@ const main = async () => {
 	let needsNotify = false;
 	const data = [];
 	for (const {id, url, options, format, filters, condition, notify, notifyCondition, errorCondition} of configs) {
+		console.log(`monitor id: ${id} start`);
 		try {
 			const result = await monitorFile(id, url, options, format, filters, condition);
 			if (result) {
@@ -33,6 +34,7 @@ const main = async () => {
 			data.push(e.toString());
 			needsNotify = true;
 		}
+		console.log(`monitor id: ${id} end`);
 	}
 
 	if (hasNewFile) {
