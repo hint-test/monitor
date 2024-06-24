@@ -7,18 +7,31 @@ const main = async () => {
 	let hasNewFile = false;
 	let needsNotify = false;
 	const data = [];
-	for (const {id, url, options, format, filters, condition, notify, notifyCondition} of configs) {
-		const result = await monitorFile(id, url, options, format, filters, condition);
-		if (result) {
-			hasNewFile = true;
-			if (notify || notifyCondition) {
-				if (!notifyCondition || eval(`result.${notifyCondition}`)) {
-					const msg = `id: ${id} content changed, condition: ${notifyCondition || true} match`;
+	for (const {id, url, options, format, filters, condition, notify, notifyCondition, errorCondition} of configs) {
+		try {
+			const result = await monitorFile(id, url, options, format, filters, condition);
+			if (result) {
+				hasNewFile = true;
+				if (notify || notifyCondition) {
+					if (!notifyCondition || eval(`result.${notifyCondition}`)) {
+						const msg = `id: ${id} content changed, condition: ${notifyCondition || true} match`;
+						console.log(msg);
+						data.push(msg);
+						needsNotify = true;
+					}
+				}
+
+				if (errorCondition && eval(`result.${errorCondition}`)) {
+					const msg = `id: ${id} errors, condition: ${errorCondition} match`;
 					console.log(msg);
 					data.push(msg);
 					needsNotify = true;
 				}
 			}
+		} catch (e) {
+			console.error('There was a problem with your fetch operation:', e);
+			data.push(e.toString());
+			needsNotify = true;
 		}
 	}
 
@@ -45,19 +58,15 @@ const monitorFile = async (id, url, options = null, format = false, filters = nu
 		throw new Error('Network response was not ok');
 	}
 
-	try {
-		const newData = await response.json();
-		const folderName = id.replace(/\//g, '_');
-		const currentFile = `${folderName}/current.json`;
-		const previousData = readDataFile(currentFile, 'utf8');
-		if (!areJsonEqual(newData, previousData, filters) && (!condition || (eval(`newData.${condition}`) !== eval(`previousData.${condition}`)))) {
-			const timestampPath = getCurrentDateTimeStringPath();
-			writeDataFile(currentFile, JSON.stringify(newData, null, format ? '\t' : null));
-			writeDataFile(`${folderName}/${timestampPath}`, JSON.stringify(newData, null, format ? '\t' : null));
-			return newData;
-		}
-	} catch (error) {
-		console.error('There was a problem with your fetch operation:', error);
+	const newData = await response.json();
+	const folderName = id.replace(/\//g, '_');
+	const currentFile = `${folderName}/current.json`;
+	const previousData = readDataFile(currentFile, 'utf8');
+	if (!areJsonEqual(newData, previousData, filters) && (!condition || (eval(`newData.${condition}`) !== eval(`previousData.${condition}`)))) {
+		const timestampPath = getCurrentDateTimeStringPath();
+		writeDataFile(currentFile, JSON.stringify(newData, null, format ? '\t' : null));
+		writeDataFile(`${folderName}/${timestampPath}`, JSON.stringify(newData, null, format ? '\t' : null));
+		return newData;
 	}
 
 	return null;

@@ -19,6 +19,7 @@
 			},
 			"body": "stadiumId=69002&reservedate=2024-08-20&type=union&appId=wxa0a7f2b3bf67edcc"
 		},
+		"errorCondition": "errcode !== '0000'",
 		"format": true,
 		"notifyCondition": "data.reservePeriodList.length > 0"
 	}
