@@ -5,6 +5,7 @@ import {areJsonEqual, getCurrentDateTimeStringPath, readDataFile, writeDataFile}
 const main = async () => {
 	const configs = readDataFile('config.json');
 	let hasNewFile = false;
+	let needsNotify = false;
 	const data = [];
 	for (const {id, url, options, format, filters, condition, notify, notifyCondition} of configs) {
 		const result = await monitorFile(id, url, options, format, filters, condition);
@@ -15,6 +16,7 @@ const main = async () => {
 					const msg = `id: ${id} content changed, condition: ${notifyCondition || true} match`;
 					console.log(msg);
 					data.push(msg);
+					needsNotify = true;
 				}
 			}
 		}
@@ -24,6 +26,7 @@ const main = async () => {
 		setOutput('new_file', true);
 	}
 	setOutput('data', data);
+	setOutput('notify', needsNotify);
 }
 
 /**
