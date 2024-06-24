@@ -6,11 +6,11 @@ const main = async () => {
 	const configs = readDataFile('config.json');
 	let hasNewFile = false;
 	const data = [];
-	for (const {id, url, format, filters, condition, notify, notifyCondition} of configs) {
-		const result = await monitorFile(id, url, format, filters, condition);
+	for (const {id, url, options, format, filters, condition, notify, notifyCondition} of configs) {
+		const result = await monitorFile(id, url, options, format, filters, condition);
 		if (result) {
 			hasNewFile = true;
-			if (notify) {
+			if (notify || notifyCondition) {
 				if (!notifyCondition || eval(`result.${notifyCondition}`)) {
 					const msg = `id: ${id} content changed, condition: ${notifyCondition || true} match`;
 					console.log(msg);
@@ -30,13 +30,14 @@ const main = async () => {
  * 比较新数据和老数据, 仅当条件满足且内容变化时, 才保存新数据.
  * @param id 需要存储的目录名
  * @param url 需要匹配的目标URL
+ * @param options fetch options
  * @param format 是否对JSON格式化, 方便查看.
  * @param filters 字符串数组类型, 过滤特定字段. 比如设置`['referees']`, 过滤掉你不关心的`referees`字段.
  * @param condition 需满足的额外条件. 比如设置`length`, 则即便内容有变化, 也还需要length变化时, 才存储.
  * @returns {Promise<any|null>}
  */
-const monitorFile = async (id, url, format = false, filters = null, condition = null) => {
-	const response = await fetch(url);
+const monitorFile = async (id, url, options = null, format = false, filters = null, condition = null) => {
+	const response = options ? await fetch(url, options) : await fetch(url);
 	if (!response.ok) {
 		throw new Error('Network response was not ok');
 	}

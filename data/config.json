@@ -1,65 +1,25 @@
 [
 	{
-		"id": "uefa_match_2036177",
-		"url": "https://match.uefa.com/v5/matches?matchId=2036177",
+		"id": "shanghaimuseum_2024-08-20",
+		"url": "https://shmres-zwc.shanghaimuseum.net/vendor/reserve/getReservePeriodListByDate.xhtml",
+		"options": {
+			"method": "POST",
+			"headers": {
+				"Host": "shmres-zwc.shanghaimuseum.net",
+				"Content-Type": "application/x-www-form-urlencoded",
+				"xweb_xhr": "1",
+				"mpsessid": "DF0737ABEBDB0B1C29AC237BCAEC2391CC4AE7BEC09A685A88408234E8931C7DBCAC0FC29A00F5B9@da3d0929",
+				"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 MicroMessenger/6.8.0(0x16080000) NetType/WIFI MiniProgramEnv/Mac MacWechat/WMPF MacWechat/3.8.7(0x13080712) XWEB/1191",
+				"Accept": "*/*",
+				"Sec-Fetch-Site": "cross-site",
+				"Sec-Fetch-Mode": "cors",
+				"Sec-Fetch-Dest": "empty",
+				"Referer": "https://servicewechat.com/wxa0a7f2b3bf67edcc/74/page-frame.html",
+				"Accept-Language": "zh-CN,zh;q=0.9"
+			},
+			"body": "stadiumId=69002&reservedate=2024-08-20&type=union&appId=wxa0a7f2b3bf67edcc"
+		},
 		"format": true,
-		"filters": [
-			"referees"
-		]
-	},
-	{
-		"id": "uefa_match_2036177_events",
-		"url": "https://match.uefa.com/v5/matches/2036177/events?filter=ALL&offset=0&limit=500&order=ASC",
-		"format": true,
-		"condition": "length"
-	},
-	{
-		"id": "uefa_match_2036177_livescore",
-		"url": "https://match.uefa.com/v5/livescore?matchId=2036177",
-		"format": true,
-		"filters": [
-			"hash",
-			"minute"
-		],
-		"notify": true
-	},
-	{
-		"id": "uefa_match_2036178",
-		"url": "https://match.uefa.com/v5/matches?matchId=2036178",
-		"format": true,
-		"filters": [
-			"referees"
-		]
-	},
-	{
-		"id": "uefa_match_2036178_events",
-		"url": "https://match.uefa.com/v5/matches/2036178/events?filter=ALL&offset=0&limit=500&order=ASC",
-		"format": true,
-		"condition": "length"
-	},
-	{
-		"id": "uefa_match_2036178_livescore",
-		"url": "https://match.uefa.com/v5/livescore?matchId=2036178",
-		"format": true
-	},
-	{
-		"id": "uefa_match_2036175",
-		"url": "https://match.uefa.com/v5/matches?matchId=2036175",
-		"format": true,
-		"filters": [
-			"referees"
-		]
-	},
-	{
-		"id": "uefa_match_2036175_events",
-		"url": "https://match.uefa.com/v5/matches/2036175/events?filter=ALL&offset=0&limit=500&order=ASC",
-		"format": true,
-		"condition": "length"
-	},
-	{
-		"id": "uefa_match_2036175_livescore",
-		"url": "https://match.uefa.com/v5/livescore?matchId=2036175",
-		"format": true
+		"notifyCondition": "data.reservePeriodList.length > 0"
 	}
 ]
-
